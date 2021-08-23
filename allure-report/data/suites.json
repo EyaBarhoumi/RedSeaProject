@@ -1,0 +1,52 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test the login feature",
+    "children" : [ {
+      "name" : "To login with  email and pw",
+      "uid" : "cba6ecb61ba996ae",
+      "parentUid" : "c05ee3ced239570b8f124cd4ee0f93bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628680790217,
+        "stop" : 1628680843584,
+        "duration" : 53367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c05ee3ced239570b8f124cd4ee0f93bf"
+  }, {
+    "name" : "Test the Visitor feature",
+    "children" : [ {
+      "name" : "To Add a new visitor",
+      "uid" : "5ac533b8bd768eec",
+      "parentUid" : "131d305c8706110376ca811515c09178",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628680843773,
+        "stop" : 1628680879622,
+        "duration" : 35849
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "To export the list of visitors",
+      "uid" : "be8473bddc770890",
+      "parentUid" : "131d305c8706110376ca811515c09178",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628680879645,
+        "stop" : 1628680879651,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "131d305c8706110376ca811515c09178"
+  } ]
+}

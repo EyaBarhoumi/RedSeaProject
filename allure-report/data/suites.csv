@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 11 12:19:50 WAT 2021","Wed Aug 11 12:20:43 WAT 2021","53367","","Test the login feature","","To login with  email and pw","","To login with  email and pw",""
+"broken","Wed Aug 11 12:21:19 WAT 2021","Wed Aug 11 12:21:19 WAT 2021","6","","Test the Visitor feature","","To export the list of visitors","","To export the list of visitors",""
+"broken","Wed Aug 11 12:20:43 WAT 2021","Wed Aug 11 12:21:19 WAT 2021","35849","","Test the Visitor feature","","To Add a new visitor","","To Add a new visitor",""

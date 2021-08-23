@@ -1,0 +1,31 @@
+[ {
+  "uid" : "5ac533b8bd768eec",
+  "name" : "To Add a new visitor",
+  "time" : {
+    "start" : 1628680843773,
+    "stop" : 1628680879622,
+    "duration" : 35849
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cba6ecb61ba996ae",
+  "name" : "To login with  email and pw",
+  "time" : {
+    "start" : 1628680790217,
+    "stop" : 1628680843584,
+    "duration" : 53367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be8473bddc770890",
+  "name" : "To export the list of visitors",
+  "time" : {
+    "start" : 1628680879645,
+    "stop" : 1628680879651,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

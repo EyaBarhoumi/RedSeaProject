@@ -1,0 +1,56 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.java.features",
+    "children" : [ {
+      "name" : "Login_feature.Test the login feature",
+      "children" : [ {
+        "name" : "To login with  email and pw",
+        "uid" : "cba6ecb61ba996ae",
+        "parentUid" : "ab7158091289dc71daa7a076ae036584",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628680790217,
+          "stop" : 1628680843584,
+          "duration" : 53367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Login_feature.Test the login feature"
+    }, {
+      "name" : "Visitor_feature.Test the Visitor feature",
+      "children" : [ {
+        "name" : "To Add a new visitor",
+        "uid" : "5ac533b8bd768eec",
+        "parentUid" : "4cc2bd0a3c08b49c0cf7a6da011e1a00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628680843773,
+          "stop" : 1628680879622,
+          "duration" : 35849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "To export the list of visitors",
+        "uid" : "be8473bddc770890",
+        "parentUid" : "4cc2bd0a3c08b49c0cf7a6da011e1a00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628680879645,
+          "stop" : 1628680879651,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Visitor_feature.Test the Visitor feature"
+    } ],
+    "uid" : "src.test.java.features"
+  } ]
+}

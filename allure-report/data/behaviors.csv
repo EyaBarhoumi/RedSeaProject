@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Test the login feature","To login with  email and pw","0","0","1","0","0"
+"","Test the Visitor feature","To export the list of visitors","0","1","0","0","0"
+"","Test the Visitor feature","To Add a new visitor","0","1","0","0","0"
