@@ -36,6 +36,7 @@ public class VehicleSteps extends Base {
         vehiclePage.clickonColor();
         vehiclePage.clickonDriveName();
         vehiclePage.clickonShift();
+        Thread.sleep(4000);
     }
 
     @And("click on submit button vehicle to confirm")
@@ -50,23 +51,41 @@ public class VehicleSteps extends Base {
     }
 
     @Given("User select vehicle to update")
-    public void userSelectVehicleToUpdate() {
+    public void userSelectVehicleToUpdate() throws InterruptedException {
+        Thread.sleep(1000);
+        vehiclePage = new VehiclePage();
+        vehiclePage.gotovehiclePage();
+        Thread.sleep(1000);
+        vehiclePage.clickonsearchbutton();
+
+        vehiclePage.clickOnEditButton();
     }
 
     @When("User update vehicle information")
-    public void userUpdateVehicleInformation() {
+    public void userUpdateVehicleInformation() throws InterruptedException {
+        Thread.sleep(1000);
+        System.out.println(" load vehicle to update");
+        vehiclePage.enternewupdateforvehicle();
     }
 
     @Then("User click on save vehicle update button")
-    public void userClickOnSaveVehicleUpdateButton() {
+    public void userClickOnSaveVehicleUpdateButton() throws InterruptedException {
+        Thread.sleep(1000);
+        vehiclePage.saveUpdateButton();
     }
 
     @Given("User select vehicle to delete")
-    public void userSelectVehicleToDelete() {
+    public void userSelectVehicleToDelete() throws InterruptedException {
+        Thread.sleep(3000);
+        vehiclePage = new VehiclePage();
+        vehiclePage.gotovehiclePage();
+        vehiclePage.clickonsearchbuttonDelete();
     }
 
     @When("User click the delete vehicle button")
-    public void userClickTheDeleteVehicleButton() {
+    public void userClickTheDeleteVehicleButton() throws InterruptedException {
+        Thread.sleep(3000);
+        vehiclePage.clickOnDeleteButton();
     }
 
     @Given("User go to vehicle menu")
@@ -77,17 +96,22 @@ public class VehicleSteps extends Base {
     }
 
     @When("User click on import vehicle list")
-    public void userClickOnImportVehicleList() {
-
-        vehiclePage.clickondragbutton();
-        vehiclePage.SaveImport();
+    public void userClickOnImportVehicleList() throws InterruptedException {
+        System.out.println(" load Vehicle to import");
+        Thread.sleep(1000);
+        vehiclePage.importnewVehicle();
     }
 
     @Then("User add the vehicle list")
     public void userAddTheVehicleList() {
+        vehiclePage.clickondragbutton();
+        vehiclePage.SaveImport();
     }
 
     @When("User click on export vehicle button")
-    public void userClickOnExportVehicleButton() {
+    public void userClickOnExportVehicleButton() throws InterruptedException {
+        Thread.sleep(1000);
+        vehiclePage.clickonexportbutton();
+        Thread.sleep(4000);
     }
 }

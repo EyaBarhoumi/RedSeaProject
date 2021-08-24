@@ -1,7 +1,9 @@
 package com.redsea.pages;
 
 import com.redsea.base.Base;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -26,8 +28,11 @@ public class VehiclePage extends Base {
 
     @FindBy(id = "profile")
     WebElement profileV;
-    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[2]/tb-vehicle/div/form/fieldset/mat-form-field[3]/div/div[1]/div[3]/div/mat-select/div")
+    @FindBy(id = "profile-panel")
     WebElement profileValue;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[3]")
+    WebElement clickempty;
+
     @FindBy(id = "plateNumber")
     WebElement plateNumber;
     @FindBy(id = "color")
@@ -58,23 +63,23 @@ public class VehiclePage extends Base {
 
     @FindBy(id = "select")
     WebElement dragImportButton;
-
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-import-excel-dialog/div/div/div/button[2]")
     WebElement saveImportButton;
 
+    //search button
     @FindBy(id = "search-text-input")
     WebElement SearchInputText;
-
     @FindBy(id = "search-button")
     WebElement SearchButton;
+
     @FindBy(id = "delete-button")
     WebElement deleteButton;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-confirm-dialog/div[2]/button[2]")
     WebElement confirmDeleteButton;
 
-    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]")
+    @FindBy(id = "edit-vehicle")
     WebElement EditButton;
-    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-visitor-dialog/form/div[3]/button[2]")
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-vehicle-dialog/form/div[3]/button[2]")
     WebElement saveUpdateButton;
 
     public void gotoAddIconbutton() {
@@ -94,7 +99,7 @@ public class VehiclePage extends Base {
     }
 
     public void enterVehicleId() {
-        vehicleID.sendKeys("147852369");
+        vehicleID.sendKeys("123654789");
     }
 
     public void clickonBrand() {
@@ -108,7 +113,7 @@ public class VehiclePage extends Base {
     }
 
     public void enterPlateNumber() {
-        plateNumber.sendKeys("1122334455");
+        plateNumber.sendKeys("123654789");
     }
 
     public void clickonColor() {
@@ -124,6 +129,8 @@ public class VehiclePage extends Base {
     public void clickonShift() {
         shift.click();
         shiftValue.click();
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ESCAPE).perform();
     }
 
     public void submitNewVehicle() {
@@ -151,13 +158,14 @@ public class VehiclePage extends Base {
     }
 
 
-    public void importnewWorkforce() {
+    public void importnewVehicle() {
         AddIconButton.click();
         importButton.click();
     }
 
     public void clickondragbutton() {
-        dragImportButton.sendKeys("C:\\Users\\Eyaba\\Desktop\\Workforce.xlsx");
+
+        dragImportButton.sendKeys("C:\\Users\\Eyaba\\Desktop\\Vehicle.xlsx");
     }
 
     public void SaveImport() {
@@ -170,15 +178,22 @@ public class VehiclePage extends Base {
     }
 
     public void clickonsearchbutton() {
-        SearchInputText.sendKeys("Vehicle Test");
+        SearchInputText.sendKeys("123654789");
         SearchButton.click();
     }
 
     public void clickonsearchbuttonDelete() {
         SearchInputText.clear();
-        SearchInputText.sendKeys("VehicleTestTest");
+        SearchInputText.sendKeys("123654788");
         SearchButton.click();
     }
 
 
+    public void enternewupdateforvehicle() {
+        vehicleID.clear();
+        vehicleID.sendKeys("123654788");
+        brand.click();
+        brandValue.click();
+
+    }
 }
