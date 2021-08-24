@@ -52,8 +52,6 @@ public class WorkforceSteps extends Base {
 
     @And("click on submit button to confirm")
     public void clickOnSubmitButtonToConfirm() throws InterruptedException {
-
-
         workforcePage.clickToAddWf();
         Thread.sleep(4000);
     }

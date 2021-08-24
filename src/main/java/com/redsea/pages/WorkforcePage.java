@@ -165,15 +165,15 @@ public class WorkforcePage extends Base {
 
     public void ClickOnattachment() {
         UploadattachmentNamewf.sendKeys("file123");
-        attachmentInputFile.sendKeys("C:\\Users\\Eya\\Desktop\\file.pdf");
+        attachmentInputFile.sendKeys("C:\\Users\\Eyaba\\Desktop\\file.pdf");
     }
 
     public void ClickOnImageupload() {
-        dragImButton.sendKeys("C:\\Users\\Eya\\Desktop\\5172619.png");
+        dragImButton.sendKeys("C:\\Users\\Eyaba\\Desktop\\5172619.png");
     }
 
     public void ClickOnImageuploadButton() {
-        dragImageButton.sendKeys("C:\\Users\\Eya\\Desktop\\5172619.png");
+        dragImageButton.sendKeys("C:\\Users\\Eyaba\\Desktop\\5172619.png");
     }
 
     public void clickToAddWf() {
@@ -207,7 +207,7 @@ public class WorkforcePage extends Base {
     }
 
     public void clickondragbutton() {
-        dragImportButton.sendKeys("C:\\Users\\Eya\\Desktop\\Workforce.xlsx");
+        dragImportButton.sendKeys("C:\\Users\\Eyaba\\Desktop\\Workforce.xlsx");
     }
 
     public void SaveImport() {

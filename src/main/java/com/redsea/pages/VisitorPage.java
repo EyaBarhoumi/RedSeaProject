@@ -130,7 +130,7 @@ public class VisitorPage extends Base {
 
     public void ClickOnattachment() {
         attachmentInput.sendKeys("file123");
-        attachmentInputFile.sendKeys("C:\\Users\\Eya\\Desktop\\file.pdf");
+        attachmentInputFile.sendKeys("C:\\Users\\Eyaba\\Desktop\\file.pdf");
     }
 
     public void clickToConfirmAdd() {
@@ -149,7 +149,7 @@ public class VisitorPage extends Base {
     }
 
     public void clickondragbutton() {
-        dragButton.sendKeys("C:\\Users\\Eya\\Desktop\\Visitorlist.xlsx");
+        dragButton.sendKeys("C:\\Users\\Eyaba\\Desktop\\Visitorlist.xlsx");
     }
 
     public void clickonsearchbutton() {
