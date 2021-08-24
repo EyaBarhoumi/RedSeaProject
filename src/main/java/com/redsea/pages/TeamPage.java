@@ -42,6 +42,6 @@ public class TeamPage extends Base {
         AddIconButton.click();
     }
     public void gotoTeamPage() {
-        VehiclesPageId.click();
+        TeamsPageId.click();
     }
 }
