@@ -18,11 +18,17 @@ public class TeamPage extends Base {
     WebElement AddIconButton;
     @FindBy(id = "page-link-Teams")
     WebElement TeamsPageId;
-    @FindBy(id = "mat-input-11")
-    WebElement TeamName;
+    //  @FindBy(id = "mat-input-11")
+    //  WebElement TeamName;
 
-    @FindBy(id = "mat-input-12")
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[2]/mat-form-field/div/div[1]/div[3]/textarea")
     WebElement TeamDescription;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[2]/mat-form-field/div/div[1]/div[3]/textarea")
+    WebElement TeamDescriptionEdit;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[1]/mat-form-field/div/div[1]/div[3]/input")
+    WebElement TeamName;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[1]/mat-form-field/div/div[1]/div[3]/input\n")
+    WebElement TeamNameEdit;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[3]/div/div/mat-form-field/div/div[1]/div/mat-select")
     WebElement TeamShift;
     @FindBy(xpath = "/html/body/div[3]/div[4]/div/div/div/mat-option[4]")
@@ -39,7 +45,7 @@ public class TeamPage extends Base {
     WebElement deleteButton;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-confirm-dialog/div[2]/button[2]")
     WebElement confirmDeleteButton;
-    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-vehicle-dialog/form/div[3]/button[2]")
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-team-dialog/form/div[3]/button[2]")
     WebElement saveUpdateButton;
     @FindBy(id = "search-text-input")
     WebElement SearchInputText;
@@ -101,14 +107,17 @@ public class TeamPage extends Base {
         SearchInputText.sendKeys("team updated");
         SearchButton.click();
     }
+
     public void saveUpdateButton() {
 
         saveUpdateButton.click();
     }
 
     public void enternewupdateforTeam() {
-        TeamName.sendKeys("team updated");
-        TeamDescription.sendKeys("team description  updated");
+        TeamNameEdit.clear();
+        TeamNameEdit.sendKeys("team updated");
+        TeamDescriptionEdit.clear();
+        TeamDescriptionEdit.sendKeys("team description  updated");
 
     }
 }

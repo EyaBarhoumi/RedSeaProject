@@ -32,6 +32,7 @@ public class TeamSteps extends Base {
         teamPage.enterTeamName();
         teamPage.enterTeamDescription();
         teamPage.clickOnTeamshift();
+        Thread.sleep(2000);
         teamPage.clickOnTeamZoneGroup();
         Thread.sleep(4000);
     }
