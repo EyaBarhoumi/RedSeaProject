@@ -1,7 +1,9 @@
 package com.redsea.pages;
 
 import com.redsea.base.Base;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -35,13 +37,78 @@ public class TeamPage extends Base {
     WebElement EditButton;
     @FindBy(id = "delete-button")
     WebElement deleteButton;
-
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-confirm-dialog/div[2]/button[2]")
+    WebElement confirmDeleteButton;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-vehicle-dialog/form/div[3]/button[2]")
+    WebElement saveUpdateButton;
+    @FindBy(id = "search-text-input")
+    WebElement SearchInputText;
+    @FindBy(id = "search-button")
+    WebElement SearchButton;
 
 
     public void gotoAddIconbutton() {
         AddIconButton.click();
     }
+
     public void gotoTeamPage() {
         TeamsPageId.click();
+    }
+
+    public void enterTeamName() {
+        TeamName.sendKeys("team created");
+    }
+
+    public void enterTeamDescription() {
+        TeamDescription.sendKeys("team description");
+    }
+
+    public void clickOnTeamshift() {
+        TeamShift.click();
+        TeamShiftOption.click();
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ESCAPE).perform();
+
+    }
+
+    public void clickOnTeamZoneGroup() {
+        TeamZoneGroup.click();
+        TeamZoneGroupOption.click();
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ESCAPE).perform();
+    }
+
+    public void clickOnSubmitButton() {
+        submitButton.click();
+    }
+
+    public void clickOnEditButton() {
+        EditButton.click();
+    }
+
+    public void clickOnDeleteButton() {
+        deleteButton.click();
+        confirmDeleteButton.click();
+    }
+
+    public void clickonsearchbutton() {
+        SearchInputText.sendKeys("team created");
+        SearchButton.click();
+    }
+
+    public void clickonsearchbuttonDelete() {
+        SearchInputText.clear();
+        SearchInputText.sendKeys("team updated");
+        SearchButton.click();
+    }
+    public void saveUpdateButton() {
+
+        saveUpdateButton.click();
+    }
+
+    public void enternewupdateforTeam() {
+        TeamName.sendKeys("team updated");
+        TeamDescription.sendKeys("team description  updated");
+
     }
 }
