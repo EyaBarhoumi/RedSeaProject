@@ -18,8 +18,7 @@ public class TeamPage extends Base {
     WebElement AddIconButton;
     @FindBy(id = "page-link-Teams")
     WebElement TeamsPageId;
-    //  @FindBy(id = "mat-input-11")
-    //  WebElement TeamName;
+
 
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[2]/mat-form-field/div/div[1]/div[3]/textarea")
     WebElement TeamDescription;
@@ -39,6 +38,9 @@ public class TeamPage extends Base {
     WebElement TeamZoneGroupOption;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[3]/button[2]")
     WebElement submitButton;
+    @FindBy(id = "cancel")
+    WebElement cancelButton;
+
     @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[7]/div/span/tb-ag-grid-row-actions/div[2]/button[1]")
     WebElement EditButton;
     @FindBy(id = "delete-button")
@@ -51,6 +53,40 @@ public class TeamPage extends Base {
     WebElement SearchInputText;
     @FindBy(id = "search-button")
     WebElement SearchButton;
+
+
+    //Error Messages
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[1]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement TeamNameError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[3]/div/div/mat-form-field/div/div[3]/div/mat-error")
+    WebElement predefinedShiftError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[4]/div[1]/div/div/mat-form-field/div/div[3]/div/mat-error")
+    WebElement zoneGroupError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[4]/div[2]/div/div/mat-form-field/div/div[3]/div/mat-error")
+    WebElement zoneError;
+
+    // Error Messages Get methodes
+    public String getTeamNameErrorMessage() {
+        String message = (TeamNameError).getText();
+        System.out.println(message);
+        return message;
+    }
+    public String getpredefinedShiftErrorMessage() {
+        String message = (predefinedShiftError).getText();
+        System.out.println(message);
+        return message;
+    }
+    public String getzoneGroupErrorMessage() {
+        String message = (zoneGroupError).getText();
+        System.out.println(message);
+        return message;
+    }
+    public String getzoneErrorMessage() {
+        String message = (zoneError).getText();
+        System.out.println(message);
+        return message;
+    }
+
 
 
     public void gotoAddIconbutton() {
@@ -111,6 +147,10 @@ public class TeamPage extends Base {
     public void saveUpdateButton() {
 
         saveUpdateButton.click();
+    }
+  public void cancelButton() {
+
+      cancelButton.click();
     }
 
     public void enternewupdateforTeam() {

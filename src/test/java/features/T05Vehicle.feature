@@ -1,5 +1,11 @@
 Feature: Test the Vehicle feature
 
+  @SanityTest01
+  Scenario: user click on submit button without entering data
+    Given User go to add new vehicle
+    When User click directly on submit vehicle button
+    Then Error messages should be displayed vehicle
+    And User quit the add page vehicle
 
   Scenario: To Add a new vehicle
     Given User go to vehicle page

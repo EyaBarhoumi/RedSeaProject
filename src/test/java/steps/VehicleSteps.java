@@ -7,6 +7,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 
 public class VehicleSteps extends Base {
     VehiclePage vehiclePage;
@@ -57,7 +58,6 @@ public class VehicleSteps extends Base {
         vehiclePage.gotovehiclePage();
         Thread.sleep(1000);
         vehiclePage.clickonsearchbutton();
-
         vehiclePage.clickOnEditButton();
     }
 
@@ -113,5 +113,49 @@ public class VehicleSteps extends Base {
         Thread.sleep(1000);
         vehiclePage.clickonexportbutton();
         Thread.sleep(4000);
+    }
+
+    @Given("User go to add new vehicle")
+    public void userGoToAddNewVehicle() throws InterruptedException {
+        Thread.sleep(3000);
+        vehiclePage = new VehiclePage();
+        vehiclePage.gotovehiclePage();
+        Thread.sleep(2000);
+        vehiclePage.gotoAddIconbutton();
+        vehiclePage.gotoAddvehicle();
+
+    }
+
+    @When("User click directly on submit vehicle button")
+    public void userClickDirectlyOnSubmitVehicleButton() throws InterruptedException {
+        vehiclePage.submitNewVehicle();
+        Thread.sleep(2000);
+    }
+
+    @Then("Error messages should be displayed vehicle")
+    public void errorMessagesShouldBeDisplayedVehicle() {
+        String VehicleIdError = vehiclePage.getVehicleIdErrorMessage();
+        Assert.assertEquals((VehicleIdError), "Vehicle Id is required");
+
+        String brandError = vehiclePage.getbrandErrorMessage();
+        Assert.assertEquals((brandError), "brand is required");
+
+        String ProfileError = vehiclePage.getProfileErrorMessage();
+        Assert.assertEquals((ProfileError), "Profile is required");
+
+        String PlateError = vehiclePage.getPlateErrorMessage();
+        Assert.assertEquals((PlateError), "Plate Number is required");
+
+        String ColorError = vehiclePage.getColorErrorMessage();
+        Assert.assertEquals((ColorError), "Color is required");
+
+        String ShiftError = vehiclePage.getShiftErrorMessage();
+        Assert.assertEquals((ShiftError), "Shift is required");
+    }
+
+    @And("User quit the add page vehicle")
+    public void userQuitTheAddPageVehicle() throws InterruptedException {
+        vehiclePage.cancelButton();
+        Thread.sleep(2000);
     }
 }

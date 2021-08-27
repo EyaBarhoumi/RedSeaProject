@@ -7,6 +7,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 
 public class TeamSteps extends Base {
     TeamPage teamPage;
@@ -82,5 +83,42 @@ public class TeamSteps extends Base {
     public void userClickTheDeleteTeamButton() throws InterruptedException {
         Thread.sleep(3000);
         teamPage.clickOnDeleteButton();
+    }
+
+    @Given("User go to add new Team")
+    public void userGoToAddNewTeam() throws InterruptedException {
+        Thread.sleep(3000);
+        teamPage = new TeamPage();
+        teamPage.gotoTeamPage();
+        Thread.sleep(3000);
+        teamPage.gotoAddIconbutton();
+
+    }
+
+    @When("User click directly on submit Team button")
+    public void userClickDirectlyOnSubmitTeamButton() throws InterruptedException {
+        teamPage.clickOnSubmitButton();
+        Thread.sleep(2000);
+    }
+
+    @Then("Error messages should be displayed Team")
+    public void errorMessagesShouldBeDisplayedTeam() {
+        String TeamNameError = teamPage.getTeamNameErrorMessage();
+        Assert.assertEquals((TeamNameError), "Team name is required");
+
+        String predefinedShiftError = teamPage.getpredefinedShiftErrorMessage();
+        Assert.assertEquals((predefinedShiftError), "Shift is required");
+
+        String zoneGroupError = teamPage.getzoneGroupErrorMessage();
+        Assert.assertEquals((zoneGroupError), "Zone Group is required");
+
+        String zoneError = teamPage.getzoneErrorMessage();
+        Assert.assertEquals((zoneError), "Zone is requred");
+    }
+
+    @And("User quit the add page Team")
+    public void userQuitTheAddPageTeam() throws InterruptedException {
+        teamPage.cancelButton();
+        Thread.sleep(3000);
     }
 }

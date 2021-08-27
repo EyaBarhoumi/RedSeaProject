@@ -31,3 +31,9 @@ Feature: Test the Workforce feature
     When User click on export workforce button
     Then User should navigate to workforce dashboard
 
+  Scenario: user click on submit button without entering data
+    Given User go to add new workforce
+    When User click directly on submit button
+    Then Error messages should be displayed
+    And User quit the page workforce
+

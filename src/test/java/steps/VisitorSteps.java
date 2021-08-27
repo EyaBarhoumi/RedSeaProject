@@ -2,6 +2,7 @@ package steps;
 
 import com.redsea.base.Base;
 import com.redsea.pages.VisitorPage;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,20 +17,23 @@ public class VisitorSteps extends Base {
     public void user_go_to_visitor_page_and_click_on_add_new_visitor() throws InterruptedException {
 
         System.out.println(" load visitor");
-
         visitorPage = new VisitorPage();
         visitorPage.gotoVisitor();
-        Thread.sleep(5000);
-        visitorPage.gotoAddIconbutton();
-        visitorPage.gotoAddvisitor();
-        Thread.sleep(5000);
-
+        Thread.sleep(3000);
 
     }
 
-    @When("User type visitor information")
-    public void user_type_visitor_information() {
+    @And("click on add new visitor")
+    public void clickOnAddNewVisitor() throws InterruptedException {
+        visitorPage.gotoAddIconbutton();
+        visitorPage.gotoAddvisitor();
+        Thread.sleep(3000);
+    }
 
+
+    @When("User type visitor information")
+    public void user_type_visitor_information() throws InterruptedException {
+        Thread.sleep(3000);
         visitorPage.entervisitorInformationP1();
         visitorPage.clickonGender();
         visitorPage.clickOnnationality();
@@ -40,24 +44,28 @@ public class VisitorSteps extends Base {
         visitorPage.clickToConfirmAdd();
     }
 
-    @When("click to confirm")
-    public void click_to_confirm() throws InterruptedException {
-        Thread.sleep(5000);
+
+    @And("click on button to confirm")
+    public void clickOnButtonToConfirm() throws InterruptedException {
+
         visitorPage.clickToConfirmAdd();
+        Thread.sleep(3000);
     }
 
     @Then("User should navigate to visitor dashboard")
     public void user_should_navigate_to_visitor_dashboard() {
         System.out.println("visitor created");
+        driver.navigate().refresh();
 
     }
 
     @Given("User go to visitor page")
     public void userGoToVisitorPage() throws InterruptedException {
         System.out.println(" load visitor");
+        Thread.sleep(3000);
         visitorPage = new VisitorPage();
         visitorPage.gotoVisitor();
-        Thread.sleep(5000);
+        Thread.sleep(3000);
     }
 
 
@@ -98,7 +106,6 @@ public class VisitorSteps extends Base {
         visitorPage.gotoVisitor();
         Thread.sleep(2000);
         visitorPage.clickonsearchbuttonDelete();
-
     }
 
     @When("User click the delete button")
@@ -119,9 +126,7 @@ public class VisitorSteps extends Base {
     public void userClickOnImportVisitorsList() throws InterruptedException {
         System.out.println(" load visitor to import");
         Thread.sleep(5000);
-        //driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
         visitorPage.importnewvisitor();
-
     }
 
     @Then("User add the visitors list")
@@ -129,6 +134,5 @@ public class VisitorSteps extends Base {
         visitorPage.clickondragbutton();
         visitorPage.SaveImport();
     }
-
 
 }

@@ -6,6 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 
 public class WorkforceSteps extends Base {
 
@@ -126,4 +127,66 @@ public class WorkforceSteps extends Base {
         Thread.sleep(1000);
         workforcePage.clickonexportbutton();
     }
+
+
+    @Given("User go to add new workforce")
+    public void userGoToAddNewWorkforce() throws InterruptedException {
+        Thread.sleep(3000);
+        workforcePage = new WorkforcePage();
+        workforcePage.gotoworkforcePage();
+        Thread.sleep(3000);
+        workforcePage.gotoAddIconbutton();
+        workforcePage.gotoAddworkforce();
+
+    }
+
+    @When("User click directly on submit button")
+    public void userClickDirectlyOnSubmitButton() throws InterruptedException {
+        workforcePage.clickToAddWf();
+        Thread.sleep(3000);
+    }
+
+    @Then("Error messages should be displayed")
+    public void errorMessagesShouldBeDisplayed() {
+
+        String fullnameError = workforcePage.getfullnameErrorMessage();
+        Assert.assertEquals((fullnameError), "Full Name is required.");
+
+
+        String emailError = workforcePage.getemailErrorMessage();
+        Assert.assertEquals((emailError), "Please enter a valid email address");
+
+        String numberError = workforcePage.getnumberErrorMessage();
+        Assert.assertEquals((numberError), "Mobile No is required.");
+
+        String birthdateError = workforcePage.getbirthdateErrorMessage();
+        Assert.assertEquals((birthdateError), "Date of birth is required");
+
+        String idPassportNumberError = workforcePage.getidPassportNumberErrorMessage();
+        Assert.assertEquals((idPassportNumberError), "ID/passport number is required");
+
+        String nationalityError = workforcePage.getnationalityErrorMessage();
+        Assert.assertEquals((nationalityError), "Nationality is required");
+
+        String genderError = workforcePage.getgenderErrorMessage();
+        Assert.assertEquals((genderError), "Gender is required");
+
+        String professionError = workforcePage.getprofessionErrorMessage();
+        Assert.assertEquals((professionError), "Profession is required");
+
+        String WorkingstatusError = workforcePage.getWorkingstatusErrorMessage();
+        Assert.assertEquals((WorkingstatusError), "Working status is required");
+
+        String profileError = workforcePage.getprofileErrorMessage();
+        Assert.assertEquals((profileError), "Workforce profile is required");
+
+
+    }
+
+    @And("User quit the page workforce")
+    public void userQuitThePageWorkforce() throws InterruptedException {
+        workforcePage.clickOncancelButton();
+        Thread.sleep(3000);
+    }
+
 }

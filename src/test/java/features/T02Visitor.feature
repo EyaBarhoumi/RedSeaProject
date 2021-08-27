@@ -2,9 +2,10 @@ Feature: Test the Visitor feature
 
 
   Scenario: To Add a new visitor
-    Given User go to visitor page and click on add new visitor
+    Given User go to visitor page
+    And click on add new visitor
     When User type visitor information
-    And click to confirm
+    And click on button to confirm
     Then User should navigate to visitor dashboard
 
 
@@ -29,6 +30,15 @@ Feature: Test the Visitor feature
     Given User go to visitor page
     When User click on export button
     Then User should navigate to visitor dashboard
+
+
+  Scenario: user click on submit button without entering data
+    Given User go to add new visitor
+    When User click directly on submit button
+    Then Error messages should be displayed
+    And User quit the page
+
+
 
 
 

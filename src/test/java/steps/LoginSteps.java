@@ -20,8 +20,7 @@ public class LoginSteps extends Base {
 
         loginPage = new LoginPage();
         loginPage.performLogin(username, password);
-        //  driver.findElement(By.id("username")).sendKeys("eya.barhoumi@esprit.tn");
-        // driver.findElement(By.id("password")).sendKeys("Eya@2307");
+
     }
 
     @When("click on login button")

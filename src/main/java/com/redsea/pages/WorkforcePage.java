@@ -66,6 +66,11 @@ public class WorkforcePage extends Base {
     WebElement attachmentInputFile;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[3]/button[2]")
     WebElement submitButton;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[3]/button[1]")
+    WebElement cancelButton;
+
+
+
     @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[2]/button[2]")
     WebElement exportButton;
 
@@ -92,6 +97,90 @@ public class WorkforcePage extends Base {
     WebElement EditButton;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-workforce-dialog/form/div[3]/button[2]")
     WebElement saveUpdateButton;
+
+    //Error Messages
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[3]/div[1]/mat-form-field/div/div[2]/div")
+    WebElement fullnameError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[3]/div[2]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement emailError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[4]/div/div[1]/mat-form-field/div/div[2]/div")
+    WebElement numberError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[4]/div/div[2]/mat-form-field/div/div[2]/div")
+    WebElement birthdateError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[5]/div[1]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement idPassportNumberError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[5]/div[2]/mat-form-field/div/div[2]/div")
+    WebElement nationalityError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[6]/div[1]/mat-form-field/div/div[2]/div")
+    WebElement genderError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[6]/div[2]/mat-form-field/div/div[2]/div")
+    WebElement professionError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[7]/div[1]/mat-form-field/div/div[2]/div")
+    WebElement WorkingstatusError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[7]/div[2]/mat-form-field/div/div[2]/div")
+    WebElement profileError;
+
+
+    public String getfullnameErrorMessage() {
+        String message = (fullnameError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getemailErrorMessage() {
+        String message = (emailError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getnumberErrorMessage() {
+        String message = (numberError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getbirthdateErrorMessage() {
+        String message = (birthdateError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getidPassportNumberErrorMessage() {
+        String message = (idPassportNumberError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getnationalityErrorMessage() {
+        String message = (nationalityError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getgenderErrorMessage() {
+        String message = (genderError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getprofessionErrorMessage() {
+        String message = (professionError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getWorkingstatusErrorMessage() {
+        String message = (WorkingstatusError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getprofileErrorMessage() {
+        String message = (profileError).getText();
+        System.out.println(message);
+        return message;
+    }
+
 
     public void gotoAddIconbutton() {
         AddIconButton.click();
@@ -178,6 +267,9 @@ public class WorkforcePage extends Base {
 
     public void clickToAddWf() {
         submitButton.click();
+    }
+    public void clickOncancelButton() {
+        cancelButton.click();
     }
 
     public void clickonexportbutton() {

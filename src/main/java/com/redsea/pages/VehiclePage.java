@@ -50,6 +50,8 @@ public class VehiclePage extends Base {
     WebElement shiftValue;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[3]/button[2]")
     WebElement submitButton;
+    @FindBy(id = "cancel")
+    WebElement cancelButton;
 
 
     @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[2]/button[2]\n")
@@ -71,7 +73,7 @@ public class VehiclePage extends Base {
     WebElement SearchInputText;
     @FindBy(id = "search-button")
     WebElement SearchButton;
-
+    // delete button
     @FindBy(id = "delete-button")
     WebElement deleteButton;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-confirm-dialog/div[2]/button[2]")
@@ -81,6 +83,57 @@ public class VehiclePage extends Base {
     WebElement EditButton;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-vehicle-dialog/form/div[3]/button[2]")
     WebElement saveUpdateButton;
+
+    //Error messages
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[2]/tb-vehicle/div/form/fieldset/mat-form-field[1]/div/div[2]/div/mat-error")
+    WebElement VehicleIdError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[2]/tb-vehicle/div/form/fieldset/mat-form-field[2]/div/div[2]/div/mat-error")
+    WebElement brandError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[2]/tb-vehicle/div/form/fieldset/mat-form-field[3]/div/div[2]/div/mat-error")
+    WebElement ProfileError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[2]/tb-vehicle/div/form/fieldset/div[1]/div[1]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement PlateError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[2]/tb-vehicle/div/form/fieldset/div[1]/div[2]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement ColorError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[2]/tb-vehicle/div/form/fieldset/div[2]/div[2]/div/div/mat-form-field/div/div[3]/div/mat-error")
+    WebElement ShiftError;
+
+    // Error Messages Get methodes
+    public String getVehicleIdErrorMessage() {
+        String message = (VehicleIdError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getbrandErrorMessage() {
+        String message = (brandError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getProfileErrorMessage() {
+        String message = (ProfileError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getPlateErrorMessage() {
+        String message = (PlateError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getColorErrorMessage() {
+        String message = (ColorError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getShiftErrorMessage() {
+        String message = (ShiftError).getText();
+        System.out.println(message);
+        return message;
+    }
 
     public void gotoAddIconbutton() {
         AddIconButton.click();
@@ -136,6 +189,10 @@ public class VehiclePage extends Base {
     public void submitNewVehicle() {
         submitButton.click();
     }
+    public void cancelButton() {
+        cancelButton.click();
+    }
+
 
     public void clickonexportbutton() {
 
