@@ -58,6 +58,8 @@ public class VisitorPage extends Base {
 
     @FindBy(id = "ImportVisitor")
     WebElement importButton;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[3]/button[1]")
+    WebElement cancelButton;
 
     @FindBy(id = "select")
     WebElement dragButton;
@@ -79,10 +81,80 @@ public class VisitorPage extends Base {
     WebElement EditButton;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-visitor-dialog/form/div[3]/button[2]")
     WebElement saveUpdateButton;
+    //Error Messages
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[2]/tb-visitor/div/form/fieldset/div[2]/div/mat-form-field/div/div[2]/div/mat-error")
+    WebElement fullnameError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[2]/tb-visitor/div/form/fieldset/div[3]/div/div[1]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement numberError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[2]/tb-visitor/div/form/fieldset/div[3]/div/div[2]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement idPassportNumberError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[2]/tb-visitor/div/form/fieldset/div[4]/div[1]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement genderError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[2]/tb-visitor/div/form/fieldset/div[4]/div[2]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement nationalityError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[2]/tb-visitor/div/form/fieldset/div[5]/div[1]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement visitorTypeError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[2]/tb-visitor/div/form/fieldset/div[6]/div[1]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement startDateError;
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[2]/tb-visitor/div/form/fieldset/div[6]/div[2]/mat-form-field/div/div[2]/div/mat-error")
+    WebElement endDateError;
+
+    // Error Messages Get methodes
+    public String getfullnameErrorMessage() {
+        String message = (fullnameError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getnumberErrorMessage() {
+        String message = (numberError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getidPassportNumberErrorMessage() {
+        String message = (idPassportNumberError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getnationalityErrorMessage() {
+        String message = (nationalityError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getgenderErrorMessage() {
+        String message = (genderError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getvisitorTypeErrorMessage() {
+        String message = (visitorTypeError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getstartDateErrorMessage() {
+        String message = (startDateError).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public String getendDateErrorMessage() {
+        String message = (endDateError).getText();
+        System.out.println(message);
+        return message;
+    }
 
 
     public void gotoVisitor() {
         VisitorPID.click();
+    }
+
+    public void clickOncancelButton() {
+        cancelButton.click();
     }
 
     public void gotoAddIconbutton() {

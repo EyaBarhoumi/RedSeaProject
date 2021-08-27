@@ -1,6 +1,6 @@
 Feature: Test the Vehicle feature
 
-  @SanityTest01
+
   Scenario: user click on submit button without entering data
     Given User go to add new vehicle
     When User click directly on submit vehicle button

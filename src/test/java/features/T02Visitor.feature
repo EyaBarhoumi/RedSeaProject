@@ -31,12 +31,12 @@ Feature: Test the Visitor feature
     When User click on export button
     Then User should navigate to visitor dashboard
 
-
+  @SanityTest01
   Scenario: user click on submit button without entering data
     Given User go to add new visitor
-    When User click directly on submit button
-    Then Error messages should be displayed
-    And User quit the page
+    When User click directly on submit visitor button
+    Then Error messages should be displayed visitor
+    And User quit the add page visitor
 
 
 
