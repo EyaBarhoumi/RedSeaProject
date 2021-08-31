@@ -70,7 +70,6 @@ public class WorkforcePage extends Base {
     WebElement cancelButton;
 
 
-
     @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[2]/button[2]")
     WebElement exportButton;
 
@@ -199,20 +198,20 @@ public class WorkforcePage extends Base {
     }
 
 
-    public void Enterfullname() {
-        fullnameWF.sendKeys("workforce Test");
+    public void Enterfullname(String name) {
+        fullnameWF.sendKeys(name);
     }
 
-    public void enteremail() {
-        emailwf.sendKeys("wftest01@gmail.com");
+    public void enteremail(String email) {
+        emailwf.sendKeys(email);
     }
 
-    public void enternumberwf() {
-        numberwf.sendKeys("523611000");
+    public void enternumberwf(String number) {
+        numberwf.sendKeys(number);
     }
 
-    public void enterIdPassport() {
-        idPassportNumberwf.sendKeys("523611000");
+    public void enterIdPassport(String id) {
+        idPassportNumberwf.sendKeys(id);
     }
 
     public void clickonGender() {
@@ -225,8 +224,8 @@ public class WorkforcePage extends Base {
         nationalitySAwf.click();
     }
 
-    public void clickOnbirthdatewf() {
-        birthdatewf.sendKeys("12252020");
+    public void clickOnbirthdatewf(String birthday) {
+        birthdatewf.sendKeys(birthday);
     }
 
     public void clickOnprofessionwf() {
@@ -239,8 +238,8 @@ public class WorkforcePage extends Base {
         Retiredwf.click();
     }
 
-    public void clickOnWorkforceprofile() {
-        profilewf.sendKeys("profile");
+    public void clickOnWorkforceprofile(String profile) {
+        profilewf.sendKeys(profile);
     }
 
     public void clickOnTeamwf() {
@@ -248,13 +247,13 @@ public class WorkforcePage extends Base {
         teamcreatedwf.click();
     }
 
-    public void clickonSelectvehicle() {
-        vehicledwf.sendKeys("vehicle");
+    public void clickonSelectvehicle(String vehicle) {
+        vehicledwf.sendKeys(vehicle);
     }
 
-    public void ClickOnattachment() {
-        UploadattachmentNamewf.sendKeys("file123");
-        attachmentInputFile.sendKeys("C:\\Users\\Eyaba\\Desktop\\file.pdf");
+    public void ClickOnattachment(String filename, String filelocation) {
+        UploadattachmentNamewf.sendKeys(filename);
+        attachmentInputFile.sendKeys(filelocation);
     }
 
     public void ClickOnImageupload() {
@@ -268,6 +267,7 @@ public class WorkforcePage extends Base {
     public void clickToAddWf() {
         submitButton.click();
     }
+
     public void clickOncancelButton() {
         cancelButton.click();
     }

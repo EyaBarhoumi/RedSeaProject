@@ -165,10 +165,13 @@ public class VisitorPage extends Base {
         AddVisitor.click();
     }
 
-    public void entervisitorInformationP1() {
-        fullName.sendKeys("visitorTest");
-        mobileNumber.sendKeys("523698000");
-        idNumber.sendKeys("523698000");
+    public void entervisitorInformationP1(String name, String number, String id) {
+        // fullName.sendKeys("visitorTest");
+        //  mobileNumber.sendKeys("523698000");
+        //  idNumber.sendKeys("523698000");
+        fullName.sendKeys(name);
+        mobileNumber.sendKeys(number);
+        idNumber.sendKeys(id);
     }
 
     public void clickonGender() {
@@ -186,23 +189,23 @@ public class VisitorPage extends Base {
         interview.click();
     }
 
-    public void clickOnStartDate() {
-        visitorStartDate.sendKeys("09252017");
+    public void clickOnStartDate(String date, String time) {
+        visitorStartDate.sendKeys(date);
         visitorStartDate.sendKeys(Keys.TAB);
-        visitorStartDate.sendKeys("0345PM");
+        visitorStartDate.sendKeys(time);
 
     }
 
-    public void clickOnEndDate() {
-        visitorEndDate.sendKeys("09252020");
+    public void clickOnEndDate(String date, String time) {
+        visitorEndDate.sendKeys(date);
         visitorEndDate.sendKeys(Keys.TAB);
-        visitorEndDate.sendKeys("0245PM");
+        visitorEndDate.sendKeys(time);
 
     }
 
-    public void ClickOnattachment() {
-        attachmentInput.sendKeys("file123");
-        attachmentInputFile.sendKeys("C:\\Users\\Eyaba\\Desktop\\file.pdf");
+    public void ClickOnattachment(String filename, String filelocation) {
+        attachmentInput.sendKeys(filename);
+        attachmentInputFile.sendKeys(filelocation);
     }
 
     public void clickToConfirmAdd() {
@@ -220,12 +223,12 @@ public class VisitorPage extends Base {
         updateButton.click();
     }
 
-    public void clickondragbutton() {
-        dragButton.sendKeys("C:\\Users\\Eyaba\\Desktop\\Visitorlist.xlsx");
+    public void clickondragbutton(String file) {
+        dragButton.sendKeys(file);
     }
 
-    public void clickonsearchbutton() {
-        SearchInputText.sendKeys("visitorTest");
+    public void clickonsearchbutton(String name) {
+        SearchInputText.sendKeys(name);
         SearchButton.click();
     }
 
@@ -240,17 +243,17 @@ public class VisitorPage extends Base {
         confirmdeleteButton.click();
     }
 
-    public void enterVisitornewInformation() {
+    public void enterVisitornewInformation(String name, String number, String id, String date, String time) {
         fullName.clear();
-        fullName.sendKeys("visitorTestTest");
+        fullName.sendKeys(name);
         mobileNumber.clear();
-        mobileNumber.sendKeys("523698015");
+        mobileNumber.sendKeys(number);
         idNumber.clear();
-        idNumber.sendKeys("523698015");
+        idNumber.sendKeys(id);
         visitorEndDate.clear();
-        visitorEndDate.sendKeys("09252021");
+        visitorEndDate.sendKeys(date);
         visitorEndDate.sendKeys(Keys.TAB);
-        visitorEndDate.sendKeys("0245PM");
+        visitorEndDate.sendKeys(time);
 
     }
 
@@ -268,9 +271,9 @@ public class VisitorPage extends Base {
         saveUpdateButton.click();
     }
 
-    public void clickonsearchbuttonDelete() {
+    public void clickonsearchbuttonDelete(String name) {
         SearchInputText.clear();
-        SearchInputText.sendKeys("visitorTestTest");
+        SearchInputText.sendKeys(name);
         SearchButton.click();
     }
 

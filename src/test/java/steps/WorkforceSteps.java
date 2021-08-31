@@ -2,6 +2,7 @@ package steps;
 
 import com.redsea.base.Base;
 import com.redsea.pages.WorkforcePage;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -29,24 +30,24 @@ public class WorkforceSteps extends Base {
     }
 
     @When("User type workforce new information")
-    public void userTypeWorkforceNewInformation() throws InterruptedException {
+    public void userTypeWorkforceNewInformation(DataTable data) throws InterruptedException {
         //   workforcePage.ClickOnImageupload();
         //  workforcePage.ClickOnImageuploadButton();
         Thread.sleep(3000);
-        workforcePage.Enterfullname();
-        workforcePage.enteremail();
-        workforcePage.enternumberwf();
-        workforcePage.clickOnbirthdatewf();
-        workforcePage.enterIdPassport();
+        workforcePage.Enterfullname(data.cell(0, 0));
+        workforcePage.enteremail(data.cell(0, 1));
+        workforcePage.enternumberwf(data.cell(0, 2));
+        workforcePage.clickOnbirthdatewf(data.cell(0, 3));
+        workforcePage.enterIdPassport(data.cell(0, 4));
 
         workforcePage.clickOnnationality();
         workforcePage.clickonGender();
         workforcePage.clickOnprofessionwf();
         workforcePage.clickOnWorkingstatuswf();
-        workforcePage.clickOnWorkforceprofile();
+        workforcePage.clickOnWorkforceprofile(data.cell(0, 5));
         workforcePage.clickOnTeamwf();
-        workforcePage.clickonSelectvehicle();
-        workforcePage.ClickOnattachment();
+        workforcePage.clickonSelectvehicle(data.cell(0, 6));
+        workforcePage.ClickOnattachment(data.cell(0, 7), data.cell(0, 8));
 
 
     }

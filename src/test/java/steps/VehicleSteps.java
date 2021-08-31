@@ -2,7 +2,6 @@ package steps;
 
 import com.redsea.base.Base;
 import com.redsea.pages.VehiclePage;
-import com.redsea.pages.WorkforcePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -59,6 +58,7 @@ public class VehicleSteps extends Base {
         Thread.sleep(1000);
         vehiclePage.clickonsearchbutton();
         vehiclePage.clickOnEditButton();
+        Thread.sleep(1000);
     }
 
     @When("User update vehicle information")
@@ -66,12 +66,14 @@ public class VehicleSteps extends Base {
         Thread.sleep(1000);
         System.out.println(" load vehicle to update");
         vehiclePage.enternewupdateforvehicle();
+        Thread.sleep(1000);
     }
 
     @Then("User click on save vehicle update button")
     public void userClickOnSaveVehicleUpdateButton() throws InterruptedException {
         Thread.sleep(1000);
         vehiclePage.saveUpdateButton();
+        Thread.sleep(1000);
     }
 
     @Given("User select vehicle to delete")
@@ -79,6 +81,7 @@ public class VehicleSteps extends Base {
         Thread.sleep(3000);
         vehiclePage = new VehiclePage();
         vehiclePage.gotovehiclePage();
+        Thread.sleep(3000);
         vehiclePage.clickonsearchbuttonDelete();
     }
 
@@ -103,9 +106,10 @@ public class VehicleSteps extends Base {
     }
 
     @Then("User add the vehicle list")
-    public void userAddTheVehicleList() {
+    public void userAddTheVehicleList() throws InterruptedException {
         vehiclePage.clickondragbutton();
         vehiclePage.SaveImport();
+        Thread.sleep(4000);
     }
 
     @When("User click on export vehicle button")

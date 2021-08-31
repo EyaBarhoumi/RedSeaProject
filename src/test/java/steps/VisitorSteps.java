@@ -2,6 +2,7 @@ package steps;
 
 import com.redsea.base.Base;
 import com.redsea.pages.VisitorPage;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -33,15 +34,15 @@ public class VisitorSteps extends Base {
 
 
     @When("User type visitor information")
-    public void user_type_visitor_information() throws InterruptedException {
+    public void user_type_visitor_information(DataTable data) throws InterruptedException {
         Thread.sleep(3000);
-        visitorPage.entervisitorInformationP1();
+        visitorPage.entervisitorInformationP1(data.cell(0, 0), data.cell(0, 1), data.cell(0, 2));
         visitorPage.clickonGender();
         visitorPage.clickOnnationality();
         visitorPage.clickOnVisType();
-        visitorPage.clickOnStartDate();
-        visitorPage.clickOnEndDate();
-        visitorPage.ClickOnattachment();
+        visitorPage.clickOnStartDate(data.cell(0, 3), data.cell(0, 4));
+        visitorPage.clickOnEndDate(data.cell(0, 5), data.cell(0, 6));
+        visitorPage.ClickOnattachment(data.cell(0, 7), data.cell(0, 8));
         visitorPage.clickToConfirmAdd();
     }
 
@@ -77,20 +78,20 @@ public class VisitorSteps extends Base {
     }
 
     @Given("User select visitor to update")
-    public void userSelectVisitorToUpdate() throws InterruptedException {
+    public void userSelectVisitorToUpdate(DataTable data) throws InterruptedException {
         System.out.println(" load visitor");
         visitorPage = new VisitorPage();
         visitorPage.gotoVisitor();
         Thread.sleep(1000);
-        visitorPage.clickonsearchbutton();
+        visitorPage.clickonsearchbutton(data.cell(0, 0));
         visitorPage.clickOnEditButton();
     }
 
     @When("User update information")
-    public void userUpdateInformation() throws InterruptedException {
+    public void userUpdateInformation(DataTable data) throws InterruptedException {
         System.out.println(" load visitor to update");
         Thread.sleep(3000);
-        visitorPage.enterVisitornewInformation();
+        visitorPage.enterVisitornewInformation(data.cell(0, 0), data.cell(0, 1), data.cell(0, 2), data.cell(0, 3), data.cell(0, 4));
 
     }
 
@@ -101,12 +102,12 @@ public class VisitorSteps extends Base {
     }
 
     @Given("User select visitor to delete")
-    public void userSelectVisitorToDelete() throws InterruptedException {
+    public void userSelectVisitorToDelete(DataTable data) throws InterruptedException {
         System.out.println(" load visitor");
         visitorPage = new VisitorPage();
         visitorPage.gotoVisitor();
         Thread.sleep(2000);
-        visitorPage.clickonsearchbuttonDelete();
+        visitorPage.clickonsearchbuttonDelete(data.cell(0, 0));
     }
 
     @When("User click the delete button")
@@ -131,8 +132,8 @@ public class VisitorSteps extends Base {
     }
 
     @Then("User add the visitors list")
-    public void userAddTheVisitorsList() {
-        visitorPage.clickondragbutton();
+    public void userAddTheVisitorsList(DataTable data) {
+        visitorPage.clickondragbutton(data.cell(0, 0));
         visitorPage.SaveImport();
     }
 

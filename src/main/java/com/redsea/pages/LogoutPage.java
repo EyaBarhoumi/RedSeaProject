@@ -14,12 +14,12 @@ public class LogoutPage extends Base {
     @FindBy(id = "user-menu")
     WebElement userMenuICON;
     @FindBy(id = "logout")
-    WebElement logOUTbutton;
+    WebElement logOutButton;
 
 
     public void performLogout() {
         userMenuICON.click();
-        logOUTbutton.click();
+        logOutButton.click();
 
     }
 }

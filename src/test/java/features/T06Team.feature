@@ -1,6 +1,13 @@
 Feature: Test the Team feature
 
 
+  Scenario: user click on submit button without entering data
+    Given User go to add new Team
+    When User click directly on submit Team button
+    Then Error messages should be displayed Team
+    And User quit the add page Team
+
+
   Scenario: To Add a new Team
     Given User go to Team page
     And click on add new Team
@@ -22,8 +29,3 @@ Feature: Test the Team feature
 
 
 
-  Scenario: user click on submit button without entering data
-    Given User go to add new Team
-    When User click directly on submit Team button
-    Then Error messages should be displayed Team
-    And User quit the add page Team

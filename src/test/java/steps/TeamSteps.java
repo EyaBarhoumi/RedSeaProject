@@ -54,8 +54,10 @@ public class TeamSteps extends Base {
         Thread.sleep(3000);
         teamPage = new TeamPage();
         teamPage.gotoTeamPage();
+        Thread.sleep(3000);
         teamPage.clickonsearchbutton();
         teamPage.clickOnEditButton();
+        Thread.sleep(3000);
     }
 
     @When("User update Team information")
@@ -67,8 +69,9 @@ public class TeamSteps extends Base {
 
     @Then("User click on save Team update button")
     public void userClickOnSaveTeamUpdateButton() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         teamPage.saveUpdateButton();
+        Thread.sleep(2000);
     }
 
     @Given("User select Team to delete")
@@ -76,13 +79,16 @@ public class TeamSteps extends Base {
         Thread.sleep(3000);
         teamPage = new TeamPage();
         teamPage.gotoTeamPage();
+        Thread.sleep(3000);
         teamPage.clickonsearchbuttonDelete();
+        Thread.sleep(3000);
     }
 
     @When("User click the delete Team button")
     public void userClickTheDeleteTeamButton() throws InterruptedException {
         Thread.sleep(3000);
         teamPage.clickOnDeleteButton();
+        Thread.sleep(3000);
     }
 
     @Given("User go to add new Team")

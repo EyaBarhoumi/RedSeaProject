@@ -7,6 +7,7 @@ Feature: Test the Vehicle feature
     Then Error messages should be displayed vehicle
     And User quit the add page vehicle
 
+
   Scenario: To Add a new vehicle
     Given User go to vehicle page
     And click on add new vehicle
