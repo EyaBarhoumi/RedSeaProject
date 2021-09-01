@@ -65,6 +65,16 @@ public class TeamPage extends Base {
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[4]/div[2]/div/div/mat-form-field/div/div[3]/div/mat-error")
     WebElement zoneError;
 
+
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div")
+    WebElement emptyrightclick;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[6]/div/div/div[5]")
+    WebElement exportdiv;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[7]/div/div/div[3]")
+    WebElement excelFile;
+
+
+
     // Error Messages Get methodes
     public String getTeamNameErrorMessage() {
         String message = (TeamNameError).getText();
@@ -160,4 +170,14 @@ public class TeamPage extends Base {
         TeamDescriptionEdit.sendKeys("team description  updated");
 
     }
+
+public void exportfile(){
+    Actions action = new Actions(driver);
+    action.contextClick(emptyrightclick).perform();
+    exportdiv.click();
+    excelFile.click();
+
+}
+
+
 }

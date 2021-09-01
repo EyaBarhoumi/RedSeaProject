@@ -9,7 +9,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-import java.util.concurrent.TimeUnit;
+import java.util.List;
+import java.util.Map;
 
 
 public class VisitorSteps extends Base {
@@ -43,7 +44,7 @@ public class VisitorSteps extends Base {
         visitorPage.clickOnStartDate(data.cell(0, 3), data.cell(0, 4));
         visitorPage.clickOnEndDate(data.cell(0, 5), data.cell(0, 6));
         visitorPage.ClickOnattachment(data.cell(0, 7), data.cell(0, 8));
-        visitorPage.clickToConfirmAdd();
+
     }
 
 
@@ -188,5 +189,40 @@ public class VisitorSteps extends Base {
         visitorPage.clickOncancelButton();
         Thread.sleep(1000);
 
+    }
+
+
+    @When("Add multiple visitors")
+    public void addMultipleVisitors(DataTable visitorData) throws InterruptedException {
+        Thread.sleep(3000);
+        List<Map<String, String>> vis = visitorData.asMaps(String.class, String.class);
+        for (Map<String, String> visitor : vis) {
+            visitorPage.gotoAddIconbutton();
+            visitorPage.gotoAddvisitor();
+            Thread.sleep(3000);
+            visitorPage.entervisitorInformationP1(visitor.get("fullName"), visitor.get("mobileNumber"), visitor.get("idNumber"));
+            visitorPage.clickonGender();
+            visitorPage.clickOnnationality();
+            visitorPage.clickOnVisType();
+            visitorPage.clickOnStartDate(visitor.get("visitorStartdate"), visitor.get("visitorStartTime"));
+            visitorPage.clickOnEndDate(visitor.get("visitorEnddate"), visitor.get("visitorEndTime"));
+            visitorPage.ClickOnattachment(visitor.get("fileName"), visitor.get("fileLocation"));
+            visitorPage.clickToConfirmAdd();
+        }
+    }
+
+
+    @Then("select the visitors added")
+    public void selectTheVisitorsAdded() throws InterruptedException {
+        Thread.sleep(3000);
+        visitorPage.clickonSelectAll();
+        Thread.sleep(9000);
+    }
+
+    @And("Click on delete button")
+    public void clickOnDeleteButton() throws InterruptedException {
+        Thread.sleep(3000);
+        visitorPage.clickOndeleteAll();
+        Thread.sleep(3000);
     }
 }

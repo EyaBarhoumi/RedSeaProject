@@ -1,12 +1,10 @@
 package com.redsea.pages;
 
 import com.redsea.base.Base;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 
 public class VisitorPage extends Base {
 
@@ -98,6 +96,13 @@ public class VisitorPage extends Base {
     WebElement startDateError;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[2]/tb-visitor/div/form/fieldset/div[6]/div[2]/mat-form-field/div/div[2]/div/mat-error")
     WebElement endDateError;
+
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/tb-ag-grid-header-select")
+    WebElement selectAll;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[2]/div/button")
+    WebElement deleteAll;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[1]/span")
+    WebElement spanclick;
 
     // Error Messages Get methodes
     public String getfullnameErrorMessage() {
@@ -277,5 +282,14 @@ public class VisitorPage extends Base {
         SearchButton.click();
     }
 
+    public void clickonSelectAll() {
+        selectAll.click();
+        spanclick.click();
+    }
+
+    public void clickOndeleteAll() {
+        deleteAll.click();
+        confirmdeleteButton.click();
+    }
 
 }

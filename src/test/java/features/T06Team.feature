@@ -27,5 +27,11 @@ Feature: Test the Team feature
     When User click the delete Team button
     Then User should navigate to Team dashboard
 
+  @SanityTest01
+  Scenario: To export the list of Team
+    Given User go to Team page
+    When User click on export Team button
+    Then User should navigate to Team dashboard
+
 
 

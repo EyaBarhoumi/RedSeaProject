@@ -127,4 +127,10 @@ public class TeamSteps extends Base {
         teamPage.cancelButton();
         Thread.sleep(3000);
     }
+
+    @When("User click on export Team button")
+    public void userClickOnExportTeamButton() throws InterruptedException {
+        Thread.sleep(3000);
+        teamPage.exportfile();
+    }
 }
