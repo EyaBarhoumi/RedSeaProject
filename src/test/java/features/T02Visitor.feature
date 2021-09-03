@@ -48,7 +48,7 @@ Feature: Test the Visitor feature
     When User click on export button
     Then User should navigate to visitor dashboard
 
-  #@SanityTest01
+  @SanityTest01
   Scenario: To add multiple visitors then delete them
     Given User go to visitor page
     When Add multiple visitors

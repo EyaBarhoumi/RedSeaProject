@@ -23,12 +23,12 @@ public class VehiclePage extends Base {
     WebElement vehicleID;
     @FindBy(id = "brand")
     WebElement brand;
-    @FindBy(xpath = "/html/body/div[3]/div[4]/div/div/div/mat-option[1]")
+    @FindBy(id = "ACCARS")
     WebElement brandValue;
 
     @FindBy(id = "profile")
     WebElement profileV;
-    @FindBy(id = "profile-panel")
+    @FindBy(id = "Compactorvehicle")
     WebElement profileValue;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[3]")
     WebElement clickempty;
@@ -37,7 +37,7 @@ public class VehiclePage extends Base {
     WebElement plateNumber;
     @FindBy(id = "color")
     WebElement color;
-    @FindBy(xpath = "/html/body/div[3]/div[4]/div/div/div/mat-option[1]")
+    @FindBy(id = "Black")
     WebElement colorBlack;
     @FindBy(id = "Staff")
     WebElement Staff;
@@ -46,18 +46,18 @@ public class VehiclePage extends Base {
 
     @FindBy(id = "shift")
     WebElement shift;
-    @FindBy(xpath = "/html/body/div[3]/div[4]/div/div/div/mat-option[1]")
+    @FindBy(id = "shift1")
     WebElement shiftValue;
-    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[3]/button[2]")
+    @FindBy(id = "save")
     WebElement submitButton;
     @FindBy(id = "cancel")
     WebElement cancelButton;
 
 
-    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[2]/button[2]\n")
+    @FindBy(id = "vehicle-export")
     WebElement exportButton;
 
-    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div[4]/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]/span[1]/mat-icon/div\n")
+    @FindBy(id = "edit-vehicle")
     WebElement updateButton;
 
     @FindBy(id = "Importvehicles")
@@ -97,6 +97,18 @@ public class VehiclePage extends Base {
     WebElement ColorError;
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-vehicle-dialog/form/div[2]/tb-vehicle/div/form/fieldset/div[2]/div[2]/div/div/mat-form-field/div/div[3]/div/mat-error")
     WebElement ShiftError;
+
+
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[2]/div/span[1]")
+    WebElement selectMessage;
+
+
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/tb-ag-grid-header-select")
+    WebElement selectAll;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[2]/div/button")
+    WebElement deleteAll;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[1]/span")
+    WebElement spanclick;
 
     // Error Messages Get methodes
     public String getVehicleIdErrorMessage() {
@@ -151,8 +163,8 @@ public class VehiclePage extends Base {
         importButton.click();
     }
 
-    public void enterVehicleId() {
-        vehicleID.sendKeys("123654789");
+    public void enterVehicleId(String id) {
+        vehicleID.sendKeys(id);
     }
 
     public void clickonBrand() {
@@ -165,8 +177,9 @@ public class VehiclePage extends Base {
         profileValue.click();
     }
 
-    public void enterPlateNumber() {
-        plateNumber.sendKeys("123654789");
+    public void enterPlateNumber(String plNumber) {
+
+        plateNumber.sendKeys(plNumber);
     }
 
     public void clickonColor() {
@@ -189,6 +202,7 @@ public class VehiclePage extends Base {
     public void submitNewVehicle() {
         submitButton.click();
     }
+
     public void cancelButton() {
         cancelButton.click();
     }
@@ -234,23 +248,44 @@ public class VehiclePage extends Base {
         saveUpdateButton.click();
     }
 
-    public void clickonsearchbutton() {
-        SearchInputText.sendKeys("123654789");
+    public void clickonsearchbutton(String id) {
+        SearchInputText.sendKeys(id);
         SearchButton.click();
     }
 
-    public void clickonsearchbuttonDelete() {
+    public void clickonsearchbuttonDelete(String id) {
         SearchInputText.clear();
-        SearchInputText.sendKeys("123654788");
+        SearchInputText.sendKeys(id);
         SearchButton.click();
     }
 
 
-    public void enternewupdateforvehicle() {
+    public void enternewupdateforvehicle(String id) {
         vehicleID.clear();
-        vehicleID.sendKeys("123654788");
+        vehicleID.sendKeys(id);
         brand.click();
         brandValue.click();
 
+    }
+
+    public void clickonSelectAll() {
+        selectAll.click();
+        spanclick.click();
+    }
+
+    public void clickOndeleteAll() {
+        deleteAll.click();
+
+    }
+
+
+    public String getSelectMessage() {
+        String message = (selectMessage).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public void confirmdelete() {
+        confirmDeleteButton.click();
     }
 }

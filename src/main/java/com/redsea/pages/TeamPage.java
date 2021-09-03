@@ -65,6 +65,10 @@ public class TeamPage extends Base {
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-new-team-dialog/form/div[2]/tb-team/div/form/fieldset/div[4]/div[2]/div/div/mat-form-field/div/div[3]/div/mat-error")
     WebElement zoneError;
 
+    //delete message
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[2]/div/span[1]")
+    WebElement selectMessage;
+
 
     @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div")
     WebElement emptyrightclick;
@@ -74,6 +78,12 @@ public class TeamPage extends Base {
     WebElement excelFile;
 
 
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/tb-ag-grid-header-select")
+    WebElement selectAll;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[2]/div/button")
+    WebElement deleteAll;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[1]/span")
+    WebElement spanclick;
 
     // Error Messages Get methodes
     public String getTeamNameErrorMessage() {
@@ -81,22 +91,24 @@ public class TeamPage extends Base {
         System.out.println(message);
         return message;
     }
+
     public String getpredefinedShiftErrorMessage() {
         String message = (predefinedShiftError).getText();
         System.out.println(message);
         return message;
     }
+
     public String getzoneGroupErrorMessage() {
         String message = (zoneGroupError).getText();
         System.out.println(message);
         return message;
     }
+
     public String getzoneErrorMessage() {
         String message = (zoneError).getText();
         System.out.println(message);
         return message;
     }
-
 
 
     public void gotoAddIconbutton() {
@@ -107,12 +119,12 @@ public class TeamPage extends Base {
         TeamsPageId.click();
     }
 
-    public void enterTeamName() {
-        TeamName.sendKeys("team created");
+    public void enterTeamName(String name) {
+        TeamName.sendKeys(name);
     }
 
-    public void enterTeamDescription() {
-        TeamDescription.sendKeys("team description");
+    public void enterTeamDescription(String desciption) {
+        TeamDescription.sendKeys(desciption);
     }
 
     public void clickOnTeamshift() {
@@ -143,14 +155,14 @@ public class TeamPage extends Base {
         confirmDeleteButton.click();
     }
 
-    public void clickonsearchbutton() {
-        SearchInputText.sendKeys("team created");
+    public void clickonsearchbutton(String name) {
+        SearchInputText.sendKeys(name);
         SearchButton.click();
     }
 
-    public void clickonsearchbuttonDelete() {
+    public void clickonsearchbuttonDelete(String name) {
         SearchInputText.clear();
-        SearchInputText.sendKeys("team updated");
+        SearchInputText.sendKeys(name);
         SearchButton.click();
     }
 
@@ -158,26 +170,46 @@ public class TeamPage extends Base {
 
         saveUpdateButton.click();
     }
-  public void cancelButton() {
 
-      cancelButton.click();
+    public void cancelButton() {
+
+        cancelButton.click();
     }
 
-    public void enternewupdateforTeam() {
+    public void enternewupdateforTeam(String name, String desciption) {
         TeamNameEdit.clear();
-        TeamNameEdit.sendKeys("team updated");
+        TeamNameEdit.sendKeys(name);
         TeamDescriptionEdit.clear();
-        TeamDescriptionEdit.sendKeys("team description  updated");
+        TeamDescriptionEdit.sendKeys(desciption);
 
     }
 
-public void exportfile(){
-    Actions action = new Actions(driver);
-    action.contextClick(emptyrightclick).perform();
-    exportdiv.click();
-    excelFile.click();
+    public void exportfile() {
+        Actions action = new Actions(driver);
+        action.contextClick(emptyrightclick).perform();
+        exportdiv.click();
+        excelFile.click();
 
+    }
+
+    public void clickonSelectAll() {
+        selectAll.click();
+        spanclick.click();
+    }
+
+    public void clickOndeleteAll() {
+        deleteAll.click();
+
+    }
+
+
+    public String getSelectMessage() {
+        String message = (selectMessage).getText();
+        System.out.println(message);
+        return message;
+    }
+public void confirmdelete(){
+    confirmDeleteButton.click();
 }
-
 
 }

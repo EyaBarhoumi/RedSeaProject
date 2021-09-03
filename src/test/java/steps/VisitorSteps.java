@@ -44,7 +44,7 @@ public class VisitorSteps extends Base {
         visitorPage.clickOnStartDate(data.cell(0, 3), data.cell(0, 4));
         visitorPage.clickOnEndDate(data.cell(0, 5), data.cell(0, 6));
         visitorPage.ClickOnattachment(data.cell(0, 7), data.cell(0, 8));
-
+        Thread.sleep(3000);
     }
 
 
@@ -52,7 +52,7 @@ public class VisitorSteps extends Base {
     public void clickOnButtonToConfirm() throws InterruptedException {
 
         visitorPage.clickToConfirmAdd();
-        Thread.sleep(3000);
+        Thread.sleep(4000);
     }
 
     @Then("User should navigate to visitor dashboard")
@@ -86,6 +86,7 @@ public class VisitorSteps extends Base {
         Thread.sleep(1000);
         visitorPage.clickonsearchbutton(data.cell(0, 0));
         visitorPage.clickOnEditButton();
+        Thread.sleep(2000);
     }
 
     @When("User update information")
@@ -97,9 +98,11 @@ public class VisitorSteps extends Base {
     }
 
     @Then("User click on save update button")
-    public void userClickOnSaveUpdateButton() {
+    public void userClickOnSaveUpdateButton() throws InterruptedException {
         System.out.println(" looking for import button");
+        Thread.sleep(2000);
         visitorPage.saveUpdateButton();
+        Thread.sleep(2000);
     }
 
     @Given("User select visitor to delete")
@@ -216,6 +219,8 @@ public class VisitorSteps extends Base {
     public void selectTheVisitorsAdded() throws InterruptedException {
         Thread.sleep(3000);
         visitorPage.clickonSelectAll();
+        String MessagePop = visitorPage.getSelectMessage();
+        Assert.assertEquals((MessagePop), "1 workforce selected");
         Thread.sleep(9000);
     }
 
@@ -223,6 +228,8 @@ public class VisitorSteps extends Base {
     public void clickOnDeleteButton() throws InterruptedException {
         Thread.sleep(3000);
         visitorPage.clickOndeleteAll();
+
+        visitorPage.confirmdelete();
         Thread.sleep(3000);
     }
 }

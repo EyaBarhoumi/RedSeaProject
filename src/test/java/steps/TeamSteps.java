@@ -3,11 +3,15 @@ package steps;
 import com.redsea.base.Base;
 import com.redsea.pages.TeamPage;
 import com.redsea.pages.VehiclePage;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+
+import java.util.List;
+import java.util.Map;
 
 public class TeamSteps extends Base {
     TeamPage teamPage;
@@ -28,10 +32,10 @@ public class TeamSteps extends Base {
     }
 
     @When("User type Team new information")
-    public void userTypeTeamNewInformation() throws InterruptedException {
+    public void userTypeTeamNewInformation(DataTable data) throws InterruptedException {
         Thread.sleep(4000);
-        teamPage.enterTeamName();
-        teamPage.enterTeamDescription();
+        teamPage.enterTeamName(data.cell(0, 0));
+        teamPage.enterTeamDescription(data.cell(0, 1));
         teamPage.clickOnTeamshift();
         Thread.sleep(2000);
         teamPage.clickOnTeamZoneGroup();
@@ -50,21 +54,21 @@ public class TeamSteps extends Base {
     }
 
     @Given("User select Team to update")
-    public void userSelectTeamToUpdate() throws InterruptedException {
+    public void userSelectTeamToUpdate(DataTable data) throws InterruptedException {
         Thread.sleep(3000);
         teamPage = new TeamPage();
         teamPage.gotoTeamPage();
         Thread.sleep(3000);
-        teamPage.clickonsearchbutton();
+        teamPage.clickonsearchbutton(data.cell(0, 0));
         teamPage.clickOnEditButton();
         Thread.sleep(3000);
     }
 
     @When("User update Team information")
-    public void userUpdateTeamInformation() throws InterruptedException {
+    public void userUpdateTeamInformation(DataTable data) throws InterruptedException {
         Thread.sleep(1000);
         System.out.println(" load Team to update");
-        teamPage.enternewupdateforTeam();
+        teamPage.enternewupdateforTeam(data.cell(0, 0), data.cell(0, 1));
     }
 
     @Then("User click on save Team update button")
@@ -75,12 +79,12 @@ public class TeamSteps extends Base {
     }
 
     @Given("User select Team to delete")
-    public void userSelectTeamToDelete() throws InterruptedException {
+    public void userSelectTeamToDelete(DataTable data) throws InterruptedException {
         Thread.sleep(3000);
         teamPage = new TeamPage();
         teamPage.gotoTeamPage();
         Thread.sleep(3000);
-        teamPage.clickonsearchbuttonDelete();
+        teamPage.clickonsearchbuttonDelete(data.cell(0, 0));
         Thread.sleep(3000);
     }
 
@@ -132,5 +136,43 @@ public class TeamSteps extends Base {
     public void userClickOnExportTeamButton() throws InterruptedException {
         Thread.sleep(3000);
         teamPage.exportfile();
+    }
+
+
+    @When("Add multiple Teams")
+    public void addMultipleTeams(DataTable Data) throws InterruptedException {
+        Thread.sleep(3000);
+        List<Map<String, String>> teamdata = Data.asMaps(String.class, String.class);
+        for (Map<String, String> team : teamdata) {
+            teamPage.gotoAddIconbutton();
+            Thread.sleep(4000);
+            teamPage.enterTeamName(team.get("name"));
+            teamPage.enterTeamDescription(team.get("description"));
+            teamPage.clickOnTeamshift();
+            Thread.sleep(2000);
+            teamPage.clickOnTeamZoneGroup();
+            Thread.sleep(4000);
+            teamPage.clickOnSubmitButton();
+            Thread.sleep(4000);
+
+        }
+    }
+
+    @Then("select the Teams added")
+    public void selectTheTeamsAdded() throws InterruptedException {
+        Thread.sleep(3000);
+        teamPage.clickonSelectAll();
+        String MessagePop = teamPage.getSelectMessage();
+        Assert.assertEquals((MessagePop), "1 workforce selected");
+        Thread.sleep(9000);
+
+    }
+
+    @And("Click on delete Teams button")
+    public void clickOnDeleteTeamsButton() throws InterruptedException {
+        Thread.sleep(3000);
+        teamPage.clickOndeleteAll();
+        teamPage.confirmdelete();
+        Thread.sleep(3000);
     }
 }

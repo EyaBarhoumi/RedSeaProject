@@ -104,6 +104,11 @@ public class VisitorPage extends Base {
     @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[1]/span")
     WebElement spanclick;
 
+
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[2]/div/span[1]")
+    WebElement selectMessage;
+
+
     // Error Messages Get methodes
     public String getfullnameErrorMessage() {
         String message = (fullnameError).getText();
@@ -289,6 +294,18 @@ public class VisitorPage extends Base {
 
     public void clickOndeleteAll() {
         deleteAll.click();
+
+    }
+
+
+
+    public String getSelectMessage() {
+        String message = (selectMessage).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public void confirmdelete() {
         confirmdeleteButton.click();
     }
 

@@ -119,6 +119,17 @@ public class WorkforcePage extends Base {
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-workforce-dialog/form/div[2]/tb-workforce/div/form/fieldset/div[7]/div[2]/mat-form-field/div/div[2]/div")
     WebElement profileError;
 
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/tb-ag-grid-header-select")
+    WebElement selectAll;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[2]/div/button")
+    WebElement deleteAll;
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[1]/span")
+    WebElement spanclick;
+
+
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[2]/div/span[1]")
+    WebElement selectMessage;
+
     // Error Messages Get methodes
     public String getfullnameErrorMessage() {
         String message = (fullnameError).getText();
@@ -310,32 +321,54 @@ public class WorkforcePage extends Base {
         saveUpdateButton.click();
     }
 
-    public void clickonsearchbutton() {
-        SearchInputText.sendKeys("workforce Test");
+    public void clickonsearchbutton(String name) {
+        SearchInputText.sendKeys(name);
         SearchButton.click();
     }
 
-    public void clickonsearchbuttonDelete() {
+    public void clickonsearchbuttonDelete(String name) {
         SearchInputText.clear();
-        SearchInputText.sendKeys("workforceTestTest");
+        SearchInputText.sendKeys(name);
         SearchButton.click();
     }
 
-    public void enternewupdateforworkforce() {
+    public void enternewupdateforworkforce(String name, String email, String birthday, String id) {
         fullnameWF.clear();
-        fullnameWF.sendKeys("workforceTestTest");
+        fullnameWF.sendKeys(name);
         emailwf.clear();
-        emailwf.sendKeys("workforcetesttest@gmail.com");
+        emailwf.sendKeys(email);
         birthdatewf.clear();
-        birthdatewf.sendKeys("12252021");
+        birthdatewf.sendKeys(birthday);
         idPassportNumberwf.clear();
-        idPassportNumberwf.sendKeys("523698009");
+        idPassportNumberwf.sendKeys(id);
 //        nationalitywf.clear();
         nationalitywf.click();
         nationalityIndia.click();
 //        professionwf.clear();
         professionwf.click();
         professiondriverwf.click();
+    }
+
+
+    public void clickonSelectAll() {
+        selectAll.click();
+        spanclick.click();
+    }
+
+    public void clickOndeleteAll() {
+        deleteAll.click();
+
+    }
+
+
+    public String getSelectMessage() {
+        String message = (selectMessage).getText();
+        System.out.println(message);
+        return message;
+    }
+
+    public void confirmdelete() {
+        confirmdeleteButton.click();
     }
 
 }

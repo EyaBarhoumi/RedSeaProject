@@ -9,6 +9,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
+import java.util.List;
+import java.util.Map;
+
 public class WorkforceSteps extends Base {
 
 
@@ -39,7 +42,6 @@ public class WorkforceSteps extends Base {
         workforcePage.enternumberwf(data.cell(0, 2));
         workforcePage.clickOnbirthdatewf(data.cell(0, 3));
         workforcePage.enterIdPassport(data.cell(0, 4));
-
         workforcePage.clickOnnationality();
         workforcePage.clickonGender();
         workforcePage.clickOnprofessionwf();
@@ -64,21 +66,21 @@ public class WorkforceSteps extends Base {
     }
 
     @Given("User select workforce to update")
-    public void userSelectWorkforceToUpdate() throws InterruptedException {
+    public void userSelectWorkforceToUpdate(DataTable data) throws InterruptedException {
         Thread.sleep(3000);
         workforcePage = new WorkforcePage();
         workforcePage.gotoworkforcePage();
-        workforcePage.clickonsearchbutton();
+        workforcePage.clickonsearchbutton(data.cell(0, 0));
         Thread.sleep(1000);
         workforcePage.clickOnEditButton();
     }
 
     @When("User update workforce information")
-    public void userUpdateWorkforceInformation() throws InterruptedException {
+    public void userUpdateWorkforceInformation(DataTable data) throws InterruptedException {
         Thread.sleep(1000);
         System.out.println(" load workforce to update");
 
-        workforcePage.enternewupdateforworkforce();
+        workforcePage.enternewupdateforworkforce(data.cell(0, 0), data.cell(0, 1), data.cell(0, 2), data.cell(0, 3));
 
     }
 
@@ -89,11 +91,11 @@ public class WorkforceSteps extends Base {
     }
 
     @Given("User select workforce to delete")
-    public void userSelectWorkforceToDelete() throws InterruptedException {
+    public void userSelectWorkforceToDelete(DataTable data) throws InterruptedException {
         Thread.sleep(3000);
         workforcePage = new WorkforcePage();
         workforcePage.gotoworkforcePage();
-        workforcePage.clickonsearchbuttonDelete();
+        workforcePage.clickonsearchbuttonDelete(data.cell(0, 0));
     }
 
     @When("User click the delete workforce button")
@@ -190,4 +192,50 @@ public class WorkforceSteps extends Base {
         Thread.sleep(3000);
     }
 
+    @When("Add multiple workforces")
+    public void addMultipleWorkforces(DataTable WorkforceData) throws InterruptedException {
+        Thread.sleep(3000);
+        List<Map<String, String>> wf = WorkforceData.asMaps(String.class, String.class);
+        for (Map<String, String> workforce : wf) {
+            Thread.sleep(2000);
+            workforcePage.gotoAddIconbutton();
+            workforcePage.gotoAddworkforce();
+            Thread.sleep(2000);
+            workforcePage.Enterfullname(workforce.get("fullName"));
+            workforcePage.enteremail(workforce.get("email"));
+            workforcePage.enternumberwf(workforce.get("Number"));
+            workforcePage.clickOnbirthdatewf(workforce.get("birthdate"));
+            workforcePage.enterIdPassport(workforce.get("idPassport"));
+            workforcePage.clickOnnationality();
+            workforcePage.clickonGender();
+            workforcePage.clickOnprofessionwf();
+            workforcePage.clickOnWorkingstatuswf();
+            workforcePage.clickOnWorkforceprofile(workforce.get("Workforceprofile"));
+            workforcePage.clickOnTeamwf();
+            workforcePage.clickonSelectvehicle(workforce.get("vehicle"));
+            workforcePage.ClickOnattachment(workforce.get("fileName"), workforce.get("fileLocation"));
+
+            workforcePage.clickToAddWf();
+        }
+
+    }
+
+    @Then("select the workforces added")
+    public void selectTheWorkforcesAdded() throws InterruptedException {
+        Thread.sleep(3000);
+        workforcePage.clickonSelectAll();
+        String MessagePop = workforcePage.getSelectMessage();
+        Assert.assertEquals((MessagePop), "1 workforce selected");
+        Thread.sleep(9000);
+
+    }
+
+    @And("Click on delete workforces button")
+    public void clickOnDeleteWorkforcesButton() throws InterruptedException {
+        Thread.sleep(3000);
+        workforcePage.clickOndeleteAll();
+
+        workforcePage.confirmdelete();
+        Thread.sleep(3000);
+    }
 }

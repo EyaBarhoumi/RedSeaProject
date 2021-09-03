@@ -2,11 +2,15 @@ package steps;
 
 import com.redsea.base.Base;
 import com.redsea.pages.VehiclePage;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+
+import java.util.List;
+import java.util.Map;
 
 public class VehicleSteps extends Base {
     VehiclePage vehiclePage;
@@ -27,12 +31,12 @@ public class VehicleSteps extends Base {
     }
 
     @When("User type vehicle new information")
-    public void userTypeVehicleNewInformation() throws InterruptedException {
+    public void userTypeVehicleNewInformation(DataTable data) throws InterruptedException {
         Thread.sleep(4000);
-        vehiclePage.enterVehicleId();
+        vehiclePage.enterVehicleId(data.cell(0, 0));
         vehiclePage.clickonBrand();
         vehiclePage.clickonVehicleProfile();
-        vehiclePage.enterPlateNumber();
+        vehiclePage.enterPlateNumber(data.cell(0, 1));
         vehiclePage.clickonColor();
         vehiclePage.clickonDriveName();
         vehiclePage.clickonShift();
@@ -51,21 +55,21 @@ public class VehicleSteps extends Base {
     }
 
     @Given("User select vehicle to update")
-    public void userSelectVehicleToUpdate() throws InterruptedException {
+    public void userSelectVehicleToUpdate(DataTable data) throws InterruptedException {
         Thread.sleep(1000);
         vehiclePage = new VehiclePage();
         vehiclePage.gotovehiclePage();
         Thread.sleep(1000);
-        vehiclePage.clickonsearchbutton();
+        vehiclePage.clickonsearchbutton(data.cell(0, 0));
         vehiclePage.clickOnEditButton();
         Thread.sleep(1000);
     }
 
     @When("User update vehicle information")
-    public void userUpdateVehicleInformation() throws InterruptedException {
+    public void userUpdateVehicleInformation(DataTable data) throws InterruptedException {
         Thread.sleep(1000);
         System.out.println(" load vehicle to update");
-        vehiclePage.enternewupdateforvehicle();
+        vehiclePage.enternewupdateforvehicle(data.cell(0, 0));
         Thread.sleep(1000);
     }
 
@@ -77,12 +81,12 @@ public class VehicleSteps extends Base {
     }
 
     @Given("User select vehicle to delete")
-    public void userSelectVehicleToDelete() throws InterruptedException {
+    public void userSelectVehicleToDelete(DataTable data) throws InterruptedException {
         Thread.sleep(3000);
         vehiclePage = new VehiclePage();
         vehiclePage.gotovehiclePage();
         Thread.sleep(3000);
-        vehiclePage.clickonsearchbuttonDelete();
+        vehiclePage.clickonsearchbuttonDelete(data.cell(0, 0));
     }
 
     @When("User click the delete vehicle button")
@@ -161,5 +165,46 @@ public class VehicleSteps extends Base {
     public void userQuitTheAddPageVehicle() throws InterruptedException {
         vehiclePage.cancelButton();
         Thread.sleep(2000);
+    }
+
+
+    @When("Add multiple vehicles")
+    public void addMultipleVehicles(DataTable vehicleData) throws InterruptedException {
+        List<Map<String, String>> vhc = vehicleData.asMaps(String.class, String.class);
+        for (Map<String, String> vehicle : vhc) {
+            vehiclePage.gotoAddIconbutton();
+            vehiclePage.gotoAddvehicle();
+            Thread.sleep(4000);
+            vehiclePage.enterVehicleId(vehicle.get("vehicleID"));
+            vehiclePage.clickonBrand();
+            vehiclePage.clickonVehicleProfile();
+            vehiclePage.enterPlateNumber(vehicle.get("plateNumber"));
+            vehiclePage.clickonColor();
+          //  vehiclePage.clickonDriveName();
+            vehiclePage.clickonShift();
+            Thread.sleep(2000);
+            vehiclePage.submitNewVehicle();
+            Thread.sleep(3000);
+        }
+        
+    }
+
+    @Then("select the vehicles added")
+    public void selectTheVehiclesAdded() throws InterruptedException {
+        Thread.sleep(3000);
+        vehiclePage.clickonSelectAll();
+        String MessagePop = vehiclePage.getSelectMessage();
+        Assert.assertEquals((MessagePop), "1 workforce selected");
+        Thread.sleep(9000);
+        
+    }
+
+    @And("Click on delete vehicles button")
+    public void clickOnDeleteVehiclesButton() throws InterruptedException {
+
+        Thread.sleep(3000);
+        vehiclePage.clickOndeleteAll();
+        vehiclePage.confirmdelete();
+        Thread.sleep(3000);
     }
 }
