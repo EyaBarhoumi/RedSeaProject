@@ -225,7 +225,7 @@ public class WorkforceSteps extends Base {
         Thread.sleep(3000);
         workforcePage.clickonSelectAll();
         String MessagePop = workforcePage.getSelectMessage();
-        Assert.assertEquals((MessagePop), "1 workforce selected");
+        Assert.assertEquals((MessagePop), "4 workforces selected");
         Thread.sleep(9000);
 
     }
@@ -234,7 +234,6 @@ public class WorkforceSteps extends Base {
     public void clickOnDeleteWorkforcesButton() throws InterruptedException {
         Thread.sleep(3000);
         workforcePage.clickOndeleteAll();
-
         workforcePage.confirmdelete();
         Thread.sleep(3000);
     }

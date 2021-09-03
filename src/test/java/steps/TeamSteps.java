@@ -163,7 +163,7 @@ public class TeamSteps extends Base {
         Thread.sleep(3000);
         teamPage.clickonSelectAll();
         String MessagePop = teamPage.getSelectMessage();
-        Assert.assertEquals((MessagePop), "1 workforce selected");
+        Assert.assertEquals((MessagePop), "3 teams selected");
         Thread.sleep(9000);
 
     }

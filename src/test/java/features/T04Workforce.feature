@@ -45,7 +45,7 @@ Feature: Test the Workforce feature
     Then User should navigate to workforce dashboard
 
 
-  #@multiple
+  @multiple
   Scenario: To add multiple workforces then delete them
     Given User go to workforce page
     When Add multiple workforces

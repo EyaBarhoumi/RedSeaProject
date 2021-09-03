@@ -47,8 +47,8 @@ Feature: Test the Vehicle feature
     When User click on export vehicle button
     Then User should navigate to vehicle dashboard
 
-<
-  @multiple
+
+ # @multiple
   Scenario: To add multiple vehicles then delete them
     Given User go to vehicle page
     When Add multiple vehicles
