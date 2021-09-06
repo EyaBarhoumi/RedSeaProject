@@ -225,7 +225,7 @@ public class WorkforceSteps extends Base {
         Thread.sleep(3000);
         workforcePage.clickonSelectAll();
         String MessagePop = workforcePage.getSelectMessage();
-        Assert.assertEquals((MessagePop), "4 workforces selected");
+        Assert.assertEquals((MessagePop), "6 workforces selected");
         Thread.sleep(9000);
 
     }

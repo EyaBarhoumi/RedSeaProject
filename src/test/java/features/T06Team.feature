@@ -42,7 +42,7 @@ Feature: Test the Team feature
     Then User should navigate to Team dashboard
 
 
-  #@multiple
+  @multiple
   Scenario: To add multiple Teams then delete them
     Given User go to Team page
     When Add multiple Teams

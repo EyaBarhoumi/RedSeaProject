@@ -194,7 +194,7 @@ public class VehicleSteps extends Base {
         Thread.sleep(3000);
         vehiclePage.clickonSelectAll();
         String MessagePop = vehiclePage.getSelectMessage();
-        Assert.assertEquals((MessagePop), "3 vehicles selected");
+        Assert.assertEquals((MessagePop), "5 vehicles selected");
         Thread.sleep(9000);
         
     }

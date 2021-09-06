@@ -46,7 +46,7 @@ public class VehiclePage extends Base {
 
     @FindBy(id = "shift")
     WebElement shift;
-    @FindBy(id = "shift1")
+    @FindBy(id = "Shift1708")
     WebElement shiftValue;
     @FindBy(id = "save")
     WebElement submitButton;
