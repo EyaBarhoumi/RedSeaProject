@@ -1,4 +1,1077 @@
 {
+  "941e0c233e2948d8271a81edcdec07fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "803a7292edeb23e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631736525100,
+        "stop" : 1631736536618,
+        "duration" : 11518
+      }
+    } ]
+  },
+  "c7640570f1d7ded603ce0e5c0b6d136d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a01c937b671eaeb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631736536627,
+        "stop" : 1631736607126,
+        "duration" : 70499
+      }
+    } ]
+  },
+  "89f7815a235bdb7da895addef160578b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b05b30d6f561de36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629814610189,
+        "stop" : 1629814619853,
+        "duration" : 9664
+      }
+    } ]
+  },
+  "942577da3abace17edbe8d24b4c945d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45e8ddd831e3309d",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0334f7d9ddac63b4753adc3b2fcbf0fa\n*** Element info: {Using=id, value=page-link-Workforces}",
+      "time" : {
+        "start" : 1629761398458,
+        "stop" : 1629761401482,
+        "duration" : 3024
+      }
+    } ]
+  },
+  "eb8d0cba134e99f5ffb2c36b18b6b300" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22d582c202ec367f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631734230413,
+        "stop" : 1631734234914,
+        "duration" : 4501
+      }
+    } ]
+  },
+  "2300f54aae05c8f3c85361e2e31e6903" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "554c39f7d264c6ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631735670216,
+        "stop" : 1631735688706,
+        "duration" : 18490
+      }
+    } ]
+  },
+  "a94e9f10a3803e9606ac69475e0b93cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca10abf72c7a64a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631736468116,
+        "stop" : 1631736491246,
+        "duration" : 23130
+      }
+    } ]
+  },
+  "4707f938998843285dc4b3bffda0d750" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b70f876411525ec6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630072040789,
+        "stop" : 1630072059646,
+        "duration" : 18857
+      }
+    } ]
+  },
+  "1554d57af2c96677ea21e759b3f8db1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aebb6d50bcac90e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628864304997,
+        "stop" : 1628864316685,
+        "duration" : 11688
+      }
+    } ]
+  },
+  "d8e1591b467945f74848d30eb95c1265" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d6d38662cf21f3ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628864206691,
+        "stop" : 1628864216057,
+        "duration" : 9366
+      }
+    } ]
+  },
+  "e56d2decb995210f6e1844eefbce608e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d82a4179aaf0c42",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-cwm-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Teams\" tabindex=\"0\" aria-disabled=\"false\" href=\"/team\" aria-describedby=\"cdk-describedby-message-8\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 181). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54905}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a41fa092dd6c1502a0b249719d9a166e",
+      "time" : {
+        "start" : 1630026299121,
+        "stop" : 1630026303224,
+        "duration" : 4103
+      }
+    } ]
+  },
+  "8c7f5acd8281946fce629b0dabc3a1c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d618b7c72f8852b3",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1628782766781,
+        "stop" : 1628782766859,
+        "duration" : 78
+      }
+    } ]
+  },
+  "afb43bdbad507d5437868d8ff8d01233" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fac7c7cb116b24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631738367642,
+        "stop" : 1631738380255,
+        "duration" : 12613
+      }
+    } ]
+  },
+  "4c7c7b47d1a663d31167100ccc59b8a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cefca436c04fd290",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630366690647,
+        "stop" : 1630366700781,
+        "duration" : 10134
+      }
+    } ]
+  },
+  "8d430383294d9d05c9fc8c57f21eda8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b604bbecc0cbd76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629992830954,
+        "stop" : 1629992839273,
+        "duration" : 8319
+      }
+    } ]
+  },
+  "76bce165f60d3ea32720e6507b285e2b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b2818199f13d864",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631738401957,
+        "stop" : 1631738422955,
+        "duration" : 20998
+      }
+    } ]
+  },
+  "4b3c1b3def13d6f959bdf994b5d1f2af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c42b668f93ad31a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628862296097,
+        "stop" : 1628862305437,
+        "duration" : 9340
+      }
+    } ]
+  },
+  "848cd60dd41b9bb6284bdb4e3489447d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2357974f66018018",
+      "status" : "failed",
+      "statusDetails" : "expected:<[5] visitors selected> but was:<[4] visitors selected>",
+      "time" : {
+        "start" : 1631734257937,
+        "stop" : 1631734291724,
+        "duration" : 33787
+      }
+    } ]
+  },
+  "841d98dbed2f697056656f43723bfe98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8d7fb92c2ee711d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631735715612,
+        "stop" : 1631735720445,
+        "duration" : 4833
+      }
+    } ]
+  },
+  "55743ff93dcac9a13dff7b037689ef48" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c07aa15a5992328",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[3]/button[2]\n\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1630335745778,
+        "stop" : 1630335800449,
+        "duration" : 54671
+      }
+    } ]
+  },
+  "a3f748778861f6ee107bd942d3d317a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33114a20de0b7f8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631736506266,
+        "stop" : 1631736525093,
+        "duration" : 18827
+      }
+    } ]
+  },
+  "8e3268a71595f16fe8ec5d3a307e99ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a27510a9a85f6a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630366678912,
+        "stop" : 1630366690639,
+        "duration" : 11727
+      }
+    } ]
+  },
+  "b3ff605b5b21856bd0b322f884415883" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "642b4a8f1a96853",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631734234922,
+        "stop" : 1631734247418,
+        "duration" : 12496
+      }
+    } ]
+  },
+  "eb187e117b062cb9ebbca033e04b435" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fbeef57b0377383b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630026292879,
+        "stop" : 1630026299107,
+        "duration" : 6228
+      }
+    } ]
+  },
+  "fdad98f9d2e3a49011ab9a3115cc560a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "608d3215216e0dd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628759148258,
+        "stop" : 1628759168583,
+        "duration" : 20325
+      }
+    } ]
+  },
+  "99a16bef2bb2f15ca853089e7c396101" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94f0ccf06d44d6e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628861374818,
+        "stop" : 1628861456489,
+        "duration" : 81671
+      }
+    } ]
+  },
+  "83b5b54594cbee3faad9b41c1dd8701b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3de48cb5f870a34c",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-cxo-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Vehicles\" tabindex=\"0\" aria-disabled=\"false\" href=\"/vehicle\" aria-describedby=\"cdk-describedby-message-11\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 261). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.234.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58771}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2ed96111f655c50fca9faa870c78d2fe",
+      "time" : {
+        "start" : 1629814624626,
+        "stop" : 1629814628704,
+        "duration" : 4078
+      }
+    } ]
+  },
+  "e03ec5036189595cfed814d76b01e161" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13684a1cfba0dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630332479320,
+        "stop" : 1630332491876,
+        "duration" : 12556
+      }
+    } ]
+  },
+  "157f324c19cdeb4ec6045751af6d4c99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "40628df05474512f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631738465710,
+        "stop" : 1631738519935,
+        "duration" : 54225
+      }
+    } ]
+  },
+  "2e6bd1db03f33650466b6b32f53f8045" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "668c730ba7978f67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630332500724,
+        "stop" : 1630332514034,
+        "duration" : 13310
+      }
+    } ]
+  },
+  "8606df9523fafd0df35d271091f0f791" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da4ec2d9ec4281de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631735688723,
+        "stop" : 1631735705699,
+        "duration" : 16976
+      }
+    } ]
+  },
+  "c37e25c14f6721cf1d625eaf666cd09f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "395536eba7bb44ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631736456253,
+        "stop" : 1631736468103,
+        "duration" : 11850
+      }
+    } ]
+  },
+  "b99c4d440ddf04a21cf6463221f38757" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81d094f3f53b53c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631738452213,
+        "stop" : 1631738465703,
+        "duration" : 13490
+      }
+    } ]
+  },
+  "508f97f663f309ee8fdd42a5f71413e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd4b8511d097eee8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631735720451,
+        "stop" : 1631735733478,
+        "duration" : 13027
+      }
+    } ]
+  },
+  "a5eb9d13656b1ef6255ff03b89935b61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1d53e45eb1b4e74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631734194061,
+        "stop" : 1631734218178,
+        "duration" : 24117
+      }
+    } ]
+  },
+  "3d35b74d58b9179e35d18ed770b67c37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "796d2fba2266607b",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:49976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6d7fcd7c318e952c97b17c27c4e3dfe4\n*** Element info: {Using=id, value=user-menu}",
+      "time" : {
+        "start" : 1628863861181,
+        "stop" : 1628863861471,
+        "duration" : 290
+      }
+    } ]
+  },
+  "d4cd54416c4ade548a8ef7b5e67593aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92b0ee1f6596afff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629992849729,
+        "stop" : 1629992849842,
+        "duration" : 113
+      }
+    } ]
+  },
+  "265c7219eaf7c3cb7dae132ee1282fe3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63493af51002a0af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631734218196,
+        "stop" : 1631734230413,
+        "duration" : 12217
+      }
+    } ]
+  },
+  "952e1e3fcf1c9626b565f73ee3b35de2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c47136508a9ea529",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629814619860,
+        "stop" : 1629814624614,
+        "duration" : 4754
+      }
+    } ]
+  },
+  "6660a55d4ac6c9a5eaffe8838fe4d827" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c0a834b4cdf9b3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631738439841,
+        "stop" : 1631738452205,
+        "duration" : 12364
+      }
+    } ]
+  },
+  "f90037477a782f4735550198d0df7a64" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7028d04ccdcf6926",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628853691096,
+        "stop" : 1628853694242,
+        "duration" : 3146
+      }
+    } ]
+  },
+  "20e8448a63de1621c945444d19e79050" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "749d792729e055cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630024805868,
+        "stop" : 1630024819222,
+        "duration" : 13354
+      }
+    } ]
+  },
+  "b5020fb8cfe97b8cc8ba766570d3d4b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32b077a2c9a9d63b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631735656839,
+        "stop" : 1631735670204,
+        "duration" : 13365
+      }
+    } ]
+  },
+  "87f594546296a2f3626fdcf71f03e5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac55399557cfaf54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631734182796,
+        "stop" : 1631734194046,
+        "duration" : 11250
+      }
+    } ]
+  },
+  "78a3e3640eea67908c9bf123d99f4545" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e83ec8ef3d85ffd",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-cjl-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Visitors\" tabindex=\"0\" aria-disabled=\"false\" href=\"/visitor\" aria-describedby=\"cdk-describedby-message-9\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 221). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:49970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 12af21912cb902974e7e398e093b264c",
+      "time" : {
+        "start" : 1628864317373,
+        "stop" : 1628864318823,
+        "duration" : 1450
+      }
+    } ]
+  },
+  "6e11dd0268aa8d37c2fa3407923c4e60" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1873499a6b80f48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631735705709,
+        "stop" : 1631735715604,
+        "duration" : 9895
+      }
+    } ]
+  },
+  "53e000d1459e77de75bc29b31bde68fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab9b79eec1450559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628864216236,
+        "stop" : 1628864222256,
+        "duration" : 6020
+      }
+    } ]
+  },
+  "45817f009100940263a1c8759c426783" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7ad1321c79ca528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628853499104,
+        "stop" : 1628853500322,
+        "duration" : 1218
+      }
+    } ]
+  },
+  "4d03ab99521461b7a89bc6b348a3be79" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fafa1104ef286e49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631738422965,
+        "stop" : 1631738439834,
+        "duration" : 16869
+      }
+    } ]
+  },
+  "1be48734def0fae0c1aba0d075adec27" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1261487442928c89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631738380266,
+        "stop" : 1631738401940,
+        "duration" : 21674
+      }
+    } ]
+  },
+  "825f2fe597c40de1e215d05b941fdf94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c51a3570687093a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630072025732,
+        "stop" : 1630072040779,
+        "duration" : 15047
+      }
+    } ]
+  },
+  "37a9885f14232af3a810fef7f48cecc3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d52406bee38f6091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631734247425,
+        "stop" : 1631734257925,
+        "duration" : 10500
+      }
+    } ]
+  },
+  "f4fcded4df321582bc90b5de494847ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f36ff2ff0b01ff85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630920595027,
+        "stop" : 1630920662148,
+        "duration" : 67121
+      }
+    } ]
+  },
+  "a9082071de3e80fab8fb1333345f828f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9517e5e0efa0ebb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630029997812,
+        "stop" : 1630030009150,
+        "duration" : 11338
+      }
+    } ]
+  },
+  "c99f12d886e90bbffdbec2e3eb27b67e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c969e589935361d5",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0334f7d9ddac63b4753adc3b2fcbf0fa\n*** Element info: {Using=id, value=page-link-Workforces}",
+      "time" : {
+        "start" : 1629761395387,
+        "stop" : 1629761398426,
+        "duration" : 3039
+      }
+    } ]
+  },
+  "63a4cfdbf06e7c5bbd76b99f6d044fcb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7fc7b3b858c452c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629992805380,
+        "stop" : 1629992824282,
+        "duration" : 18902
+      }
+    } ]
+  },
   "d27183207020423fc857b5195649b4ee" : {
     "statistic" : {
       "failed" : 0,
@@ -9,12 +1082,108 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cba6ecb61ba996ae",
+      "uid" : "1dfde0bb17ed8e69",
       "status" : "passed",
       "time" : {
-        "start" : 1628680790217,
-        "stop" : 1628680843584,
-        "duration" : 53367
+        "start" : 1628759305575,
+        "stop" : 1628759340260,
+        "duration" : 34685
+      }
+    } ]
+  },
+  "29f5cb01fb0c389804db9a6baa91dc93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54482b21b07809e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631736491265,
+        "stop" : 1631736506256,
+        "duration" : 14991
+      }
+    } ]
+  },
+  "130eae129472a1c589434e987a20a855" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "621466e22b5990cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629992839279,
+        "stop" : 1629992848628,
+        "duration" : 9349
+      }
+    } ]
+  },
+  "f942e3b8c9476a9163ccf3d1ca4c10fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "693b111a5b3ba614",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629761288950,
+        "stop" : 1629761395311,
+        "duration" : 106361
+      }
+    } ]
+  },
+  "cd3ab96863f1db228f6a2668c4ac6a73" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63e7c131aea36e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631738350157,
+        "stop" : 1631738367562,
+        "duration" : 17405
+      }
+    } ]
+  },
+  "4b703af80c31ce51b7d0902008f28f1e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ce69065d71e98a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628853438498,
+        "stop" : 1628853498589,
+        "duration" : 60091
       }
     } ]
   },
@@ -28,17 +1197,74 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "be8473bddc770890",
+      "uid" : "1130b8db271e5109",
       "status" : "broken",
-      "statusDetails" : "java.lang.NullPointerException",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[2]/button[2]/span[1]/mat-icon\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
       "time" : {
-        "start" : 1628680879645,
-        "stop" : 1628680879651,
-        "duration" : 6
+        "start" : 1628853500424,
+        "stop" : 1628853525174,
+        "duration" : 24750
       }
     } ]
   },
-  "fdad98f9d2e3a49011ab9a3115cc560a" : {
+  "c821519ecbe736b768e4943a111b0f7d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b80dcee36420998f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630332471178,
+        "stop" : 1630332479312,
+        "duration" : 8134
+      }
+    } ]
+  },
+  "5f89e06af5a096a49a4567c7ebbb418a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e07250049efb6c0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630071057117,
+        "stop" : 1630071068484,
+        "duration" : 11367
+      }
+    } ]
+  },
+  "ed2795e482ba6ef459aee640f0434f74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6771ee7f44631a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629814605005,
+        "stop" : 1629814610173,
+        "duration" : 5168
+      }
+    } ]
+  },
+  "6983518bc6fad234aff7e708faa58e08" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -48,13 +1274,71 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5ac533b8bd768eec",
+      "uid" : "1db55a231b35cfa1",
       "status" : "broken",
-      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:59671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 89ab095f7d3890f951a9b165073502de\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[3]/button[2]\n}",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0d7d8efea08b18ce877d405286bc504c\n*** Element info: {Using=id, value=page-link-Vehicles}",
       "time" : {
-        "start" : 1628680843773,
-        "stop" : 1628680879622,
-        "duration" : 35849
+        "start" : 1630574801862,
+        "stop" : 1630574817061,
+        "duration" : 15199
+      }
+    } ]
+  },
+  "539001c893a4f3a25dfe2d71a97a44e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "415594ac2ec63507",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-hjo-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Visitors\" tabindex=\"0\" aria-disabled=\"false\" href=\"/visitor\" aria-describedby=\"cdk-describedby-message-10\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 221). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bab3a3d751e73d1d1cf8d22e237ba788",
+      "time" : {
+        "start" : 1630366700805,
+        "stop" : 1630366704952,
+        "duration" : 4147
+      }
+    } ]
+  },
+  "d2c8472a3ea43ff8e5e71c02d024c389" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4e0972a2ead7f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628859453072,
+        "stop" : 1628859470423,
+        "duration" : 17351
+      }
+    } ]
+  },
+  "521f11b53405c79fdc34ed976cf6cff9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "155a1ba2700f3fa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631735733485,
+        "stop" : 1631735786059,
+        "duration" : 52574
       }
     } ]
   }

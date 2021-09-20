@@ -1,0 +1,215 @@
+{
+  "uid" : "da4ec2d9ec4281de",
+  "name" : "To update workforce",
+  "fullName" : "Test the Workforce feature: To update workforce",
+  "historyId" : "8606df9523fafd0df35d271091f0f791",
+  "time" : {
+    "start" : 1631735688723,
+    "stop" : 1631735705699,
+    "duration" : 16976
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1631735688723,
+      "stop" : 1631735688724,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User select workforce to update",
+      "time" : {
+        "start" : 1631735688724,
+        "stop" : 1631735702309,
+        "duration" : 13585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7aabba8a0f2fa8a",
+        "name" : "Data table",
+        "source" : "a7aabba8a0f2fa8a.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User update workforce information",
+      "time" : {
+        "start" : 1631735702310,
+        "stop" : 1631735704639,
+        "duration" : 2329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1786a79249fb5e17",
+        "name" : "Data table",
+        "source" : "1786a79249fb5e17.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User click on save workforce update button",
+      "time" : {
+        "start" : 1631735704639,
+        "stop" : 1631735705699,
+        "duration" : 1060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1631735705699,
+      "stop" : 1631735705699,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "workforce"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "8884@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Workforce feature"
+  }, {
+    "name" : "story",
+    "value" : "To update workforce"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Workforce feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To update workforce"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T04Workforce.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T04Workforce_feature.Test the Workforce feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8c6db7d15c9d47b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631735502258,
+        "stop" : 1631735519317,
+        "duration" : 17059
+      }
+    }, {
+      "uid" : "e53a1c1e0ec96424",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: aa1434d474687be834b04e71183df524\n*** Element info: {Using=id, value=page-link-Workforces}",
+      "time" : {
+        "start" : 1631735099386,
+        "stop" : 1631735114563,
+        "duration" : 15177
+      }
+    }, {
+      "uid" : "e1106cbea3ae90e6",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1631734819607,
+        "stop" : 1631734869574,
+        "duration" : 49967
+      }
+    }, {
+      "uid" : "5b52b98a4c8ec7d4",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=93.0.4577.63)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 82352f69e35315d5fe71ec0bda479edd\n*** Element info: {Using=id, value=page-link-Workforces}",
+      "time" : {
+        "start" : 1631734730046,
+        "stop" : 1631734733067,
+        "duration" : 3021
+      }
+    }, {
+      "uid" : "3e9947788287013b",
+      "status" : "broken",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7080cfa4000c7420360aa1c61cc03072\n*** Element info: {Using=xpath, value=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]}",
+      "time" : {
+        "start" : 1630489255084,
+        "stop" : 1630490354859,
+        "duration" : 1099775
+      }
+    }, {
+      "uid" : "b8cc356d090c7fe5",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1630488598911,
+        "stop" : 1630488638313,
+        "duration" : 39402
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "workforce" ]
+  },
+  "source" : "da4ec2d9ec4281de.json",
+  "parameterValues" : [ ]
+}

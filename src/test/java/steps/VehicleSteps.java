@@ -38,7 +38,7 @@ public class VehicleSteps extends Base {
         vehiclePage.clickonVehicleProfile();
         vehiclePage.enterPlateNumber(data.cell(0, 1));
         vehiclePage.clickonColor();
-        vehiclePage.clickonDriveName();
+        //vehiclePage.clickonDriveName();
         vehiclePage.clickonShift();
         Thread.sleep(4000);
     }
@@ -59,10 +59,11 @@ public class VehicleSteps extends Base {
         Thread.sleep(1000);
         vehiclePage = new VehiclePage();
         vehiclePage.gotovehiclePage();
-        Thread.sleep(1000);
+        Thread.sleep(4000);
         vehiclePage.clickonsearchbutton(data.cell(0, 0));
+        Thread.sleep(4000);
         vehiclePage.clickOnEditButton();
-        Thread.sleep(1000);
+        Thread.sleep(4000);
     }
 
     @When("User update vehicle information")
@@ -70,7 +71,7 @@ public class VehicleSteps extends Base {
         Thread.sleep(1000);
         System.out.println(" load vehicle to update");
         vehiclePage.enternewupdateforvehicle(data.cell(0, 0));
-        Thread.sleep(1000);
+        Thread.sleep(4000);
     }
 
     @Then("User click on save vehicle update button")
@@ -93,6 +94,7 @@ public class VehicleSteps extends Base {
     public void userClickTheDeleteVehicleButton() throws InterruptedException {
         Thread.sleep(3000);
         vehiclePage.clickOnDeleteButton();
+        Thread.sleep(4000);
     }
 
     @Given("User go to vehicle menu")
@@ -107,6 +109,7 @@ public class VehicleSteps extends Base {
         System.out.println(" load Vehicle to import");
         Thread.sleep(1000);
         vehiclePage.importnewVehicle();
+        Thread.sleep(4000);
     }
 
     @Then("User add the vehicle list")
@@ -131,6 +134,7 @@ public class VehicleSteps extends Base {
         Thread.sleep(2000);
         vehiclePage.gotoAddIconbutton();
         vehiclePage.gotoAddvehicle();
+        Thread.sleep(3000);
 
     }
 
@@ -180,13 +184,13 @@ public class VehicleSteps extends Base {
             vehiclePage.clickonVehicleProfile();
             vehiclePage.enterPlateNumber(vehicle.get("plateNumber"));
             vehiclePage.clickonColor();
-          //  vehiclePage.clickonDriveName();
+            //  vehiclePage.clickonDriveName();
             vehiclePage.clickonShift();
             Thread.sleep(2000);
             vehiclePage.submitNewVehicle();
             Thread.sleep(3000);
         }
-        
+
     }
 
     @Then("select the vehicles added")
@@ -196,7 +200,7 @@ public class VehicleSteps extends Base {
         String MessagePop = vehiclePage.getSelectMessage();
         Assert.assertEquals((MessagePop), "5 vehicles selected");
         Thread.sleep(9000);
-        
+
     }
 
     @And("Click on delete vehicles button")

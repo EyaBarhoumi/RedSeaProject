@@ -1,0 +1,329 @@
+{
+  "uid" : "395536eba7bb44ab",
+  "name" : "user click on submit button without entering data",
+  "fullName" : "Test the Team feature: user click on submit button without entering data",
+  "historyId" : "c37e25c14f6721cf1d625eaf666cd09f",
+  "time" : {
+    "start" : 1631736456253,
+    "stop" : 1631736468103,
+    "duration" : 11850
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1631736456253,
+      "stop" : 1631736456254,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User go to add new Team",
+      "time" : {
+        "start" : 1631736456254,
+        "stop" : 1631736462499,
+        "duration" : 6245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User click directly on submit Team button",
+      "time" : {
+        "start" : 1631736462499,
+        "stop" : 1631736464954,
+        "duration" : 2455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Error messages should be displayed Team",
+      "time" : {
+        "start" : 1631736464954,
+        "stop" : 1631736465043,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User quit the add page Team",
+      "time" : {
+        "start" : 1631736465043,
+        "stop" : 1631736468103,
+        "duration" : 3060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1631736468103,
+      "stop" : 1631736468103,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "team"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "9356@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Team feature"
+  }, {
+    "name" : "story",
+    "value" : "user click on submit button without entering data"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Team feature"
+  }, {
+    "name" : "testClass",
+    "value" : "user click on submit button without entering data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T06Team.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T06Team_feature.Test the Team feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3f6119841b805b91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631736211334,
+        "stop" : 1631736223163,
+        "duration" : 11829
+      }
+    }, {
+      "uid" : "b7d64bd91116b349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630071990745,
+        "stop" : 1630072002504,
+        "duration" : 11759
+      }
+    }, {
+      "uid" : "4a660676dc93d576",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630071867857,
+        "stop" : 1630071880583,
+        "duration" : 12726
+      }
+    }, {
+      "uid" : "c86697b486d01b6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630071817386,
+        "stop" : 1630071830332,
+        "duration" : 12946
+      }
+    }, {
+      "uid" : "1a4f7088f43b31b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630071685508,
+        "stop" : 1630071698259,
+        "duration" : 12751
+      }
+    }, {
+      "uid" : "d4e7769673bba8a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630071530694,
+        "stop" : 1630071542599,
+        "duration" : 11905
+      }
+    }, {
+      "uid" : "964e2a6ede123063",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 76076239c20d92c41311716f905140b2\n*** Element info: {Using=id, value=page-link-Teams}",
+      "time" : {
+        "start" : 1630070673382,
+        "stop" : 1630070688594,
+        "duration" : 15212
+      }
+    }, {
+      "uid" : "fde457e32e6fa95a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630026269801,
+        "stop" : 1630026292871,
+        "duration" : 23070
+      }
+    }, {
+      "uid" : "bc0fdbda5a327c63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629991175198,
+        "stop" : 1629991197993,
+        "duration" : 22795
+      }
+    }, {
+      "uid" : "8f9ddede1593e477",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629991094345,
+        "stop" : 1629991118843,
+        "duration" : 24498
+      }
+    }, {
+      "uid" : "4f1cd7a006819819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629888404225,
+        "stop" : 1629888427096,
+        "duration" : 22871
+      }
+    }, {
+      "uid" : "346715cfe362d7b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629888257154,
+        "stop" : 1629888279909,
+        "duration" : 22755
+      }
+    }, {
+      "uid" : "74c2e038fc1e72f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629887965973,
+        "stop" : 1629887988689,
+        "duration" : 22716
+      }
+    }, {
+      "uid" : "390fa71099eb4606",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629887874945,
+        "stop" : 1629887897731,
+        "duration" : 22786
+      }
+    }, {
+      "uid" : "f2526f1e9a34e656",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629887495953,
+        "stop" : 1629887518738,
+        "duration" : 22785
+      }
+    }, {
+      "uid" : "4466de49b189ca1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629887332026,
+        "stop" : 1629887354851,
+        "duration" : 22825
+      }
+    }, {
+      "uid" : "58d072f35685f503",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629887249400,
+        "stop" : 1629887282415,
+        "duration" : 33015
+      }
+    }, {
+      "uid" : "64755ee589c34c63",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '10.0.0.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f368d396635b96dd86d12b1cca7d2995",
+      "time" : {
+        "start" : 1629887120231,
+        "stop" : 1629887130009,
+        "duration" : 9778
+      }
+    }, {
+      "uid" : "163e29046ee036ea",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using id=mat-input-12\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '10.0.0.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629886999519,
+        "stop" : 1629887101038,
+        "duration" : 101519
+      }
+    }, {
+      "uid" : "5739216bd25f0b16",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using id=mat-input-11\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '10.0.0.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629886728224,
+        "stop" : 1629886828012,
+        "duration" : 99788
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "team" ]
+  },
+  "source" : "395536eba7bb44ab.json",
+  "parameterValues" : [ ]
+}

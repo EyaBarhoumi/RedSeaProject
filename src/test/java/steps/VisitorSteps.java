@@ -220,7 +220,7 @@ public class VisitorSteps extends Base {
         Thread.sleep(3000);
         visitorPage.clickonSelectAll();
         String MessagePop = visitorPage.getSelectMessage();
-        Assert.assertEquals((MessagePop), "4 visitors selected");
+        Assert.assertEquals((MessagePop), "5 visitors selected");
         Thread.sleep(9000);
     }
 

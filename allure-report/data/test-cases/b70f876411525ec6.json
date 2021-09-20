@@ -1,0 +1,192 @@
+{
+  "uid" : "b70f876411525ec6",
+  "name" : "To delete Team",
+  "fullName" : "Test the Team feature: To delete Team",
+  "historyId" : "4707f938998843285dc4b3bffda0d750",
+  "time" : {
+    "start" : 1630072040789,
+    "stop" : 1630072059646,
+    "duration" : 18857
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1630072040789,
+      "stop" : 1630072040790,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User select Team to delete",
+      "time" : {
+        "start" : 1630072040790,
+        "stop" : 1630072050057,
+        "duration" : 9267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User click the delete Team button",
+      "time" : {
+        "start" : 1630072050057,
+        "stop" : 1630072056331,
+        "duration" : 6274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User should navigate to Team dashboard",
+      "time" : {
+        "start" : 1630072056332,
+        "stop" : 1630072059646,
+        "duration" : 3314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1630072059646,
+      "stop" : 1630072059646,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SanityTest01"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "9512@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Team feature"
+  }, {
+    "name" : "story",
+    "value" : "To delete Team"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Team feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To delete Team"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T06Team.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T06Team_feature.Test the Team feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "df0e2969b881e63c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630071917255,
+        "stop" : 1630071935974,
+        "duration" : 18719
+      }
+    }, {
+      "uid" : "ae5511710b04313d",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-sdw-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Teams\" tabindex=\"0\" aria-disabled=\"false\" href=\"/team\" aria-describedby=\"cdk-describedby-message-8\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 181). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b653392014f367f2873e0e8ed4a33571",
+      "time" : {
+        "start" : 1630071730843,
+        "stop" : 1630071734956,
+        "duration" : 4113
+      }
+    }, {
+      "uid" : "3299dd9fda307c5f",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-lne-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Teams\" tabindex=\"0\" aria-disabled=\"false\" href=\"/team\" aria-describedby=\"cdk-describedby-message-8\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 181). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3962ac1198960de7ec0ad6952333c89e",
+      "time" : {
+        "start" : 1630071572367,
+        "stop" : 1630071576476,
+        "duration" : 4109
+      }
+    }, {
+      "uid" : "49415c4c8882b35e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630026152699,
+        "stop" : 1630026221961,
+        "duration" : 69262
+      }
+    }, {
+      "uid" : "89452e59a7757358",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630025984421,
+        "stop" : 1630026063976,
+        "duration" : 79555
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "SanityTest01" ]
+  },
+  "source" : "b70f876411525ec6.json",
+  "parameterValues" : [ ]
+}

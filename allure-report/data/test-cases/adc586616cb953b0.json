@@ -1,0 +1,154 @@
+{
+  "uid" : "adc586616cb953b0",
+  "name" : "To delete Team",
+  "fullName" : "Test the Team feature: To delete Team",
+  "historyId" : "a3f748778861f6ee107bd942d3d317a5",
+  "time" : {
+    "start" : 1631736261048,
+    "stop" : 1631736279615,
+    "duration" : 18567
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1631736261048,
+      "stop" : 1631736261048,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User select Team to delete",
+      "time" : {
+        "start" : 1631736261049,
+        "stop" : 1631736270319,
+        "duration" : 9270
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37e0eb9c8fd0eeb4",
+        "name" : "Data table",
+        "source" : "37e0eb9c8fd0eeb4.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User click the delete Team button",
+      "time" : {
+        "start" : 1631736270320,
+        "stop" : 1631736276586,
+        "duration" : 6266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User should navigate to Team dashboard",
+      "time" : {
+        "start" : 1631736276586,
+        "stop" : 1631736279614,
+        "duration" : 3028
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1631736279614,
+      "stop" : 1631736279614,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "team"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "7072@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Team feature"
+  }, {
+    "name" : "story",
+    "value" : "To delete Team"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Team feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To delete Team"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T06Team.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T06Team_feature.Test the Team feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "team" ]
+  },
+  "source" : "adc586616cb953b0.json",
+  "parameterValues" : [ ]
+}

@@ -4,40 +4,227 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "chrome not reachable\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:59671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 89ab095f7d3890f951a9b165073502de\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[3]/button[2]\n}",
-      "children" : [ {
-        "name" : "To Add a new visitor",
-        "uid" : "5ac533b8bd768eec",
-        "parentUid" : "02c88f1de1e6c482bed273a215ee4733",
-        "status" : "broken",
-        "time" : {
-          "start" : 1628680843773,
-          "stop" : 1628680879622,
-          "duration" : 35849
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "02c88f1de1e6c482bed273a215ee4733"
-    }, {
       "name" : "java.lang.NullPointerException",
       "children" : [ {
-        "name" : "To export the list of visitors",
-        "uid" : "be8473bddc770890",
+        "name" : "2To logout from account",
+        "uid" : "d618b7c72f8852b3",
         "parentUid" : "5592898b36d684905e31486a23088bda",
         "status" : "broken",
         "time" : {
-          "start" : 1628680879645,
-          "stop" : 1628680879651,
-          "duration" : 6
+          "start" : 1628782766781,
+          "stop" : 1628782766859,
+          "duration" : 78
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[2]/button[2]/span[1]/mat-icon\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "To export the list of visitors",
+        "uid" : "1130b8db271e5109",
+        "parentUid" : "f9ae9f4478be1fb69479d70929e3547f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628853500424,
+          "stop" : 1628853525174,
+          "duration" : 24750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9ae9f4478be1fb69479d70929e3547f"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:49976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6d7fcd7c318e952c97b17c27c4e3dfe4\n*** Element info: {Using=id, value=user-menu}",
+      "children" : [ {
+        "name" : "To logout from account",
+        "uid" : "796d2fba2266607b",
+        "parentUid" : "8b9df0a6c77ac56ee12359814cc1ce51",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628863861181,
+          "stop" : 1628863861471,
+          "duration" : 290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b9df0a6c77ac56ee12359814cc1ce51"
+    }, {
+      "name" : "element click intercepted: Element <a _ngcontent-cjl-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Visitors\" tabindex=\"0\" aria-disabled=\"false\" href=\"/visitor\" aria-describedby=\"cdk-describedby-message-9\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 221). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:49970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 12af21912cb902974e7e398e093b264c",
+      "children" : [ {
+        "name" : "To export the list of visitors",
+        "uid" : "e83ec8ef3d85ffd",
+        "parentUid" : "10d2ba40829274d7a89908f4353ea3d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628864317373,
+          "stop" : 1628864318823,
+          "duration" : 1450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10d2ba40829274d7a89908f4353ea3d4"
+    }, {
+      "name" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "To update workforce",
+        "uid" : "693b111a5b3ba614",
+        "parentUid" : "ca97b79c087d10255f3e855f40af4506",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629761288950,
+          "stop" : 1629761395311,
+          "duration" : 106361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca97b79c087d10255f3e855f40af4506"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0334f7d9ddac63b4753adc3b2fcbf0fa\n*** Element info: {Using=id, value=page-link-Workforces}",
+      "children" : [ {
+        "name" : "To delete workforce",
+        "uid" : "c969e589935361d5",
+        "parentUid" : "1da222bef384c92a6b3063a10847a9fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629761395387,
+          "stop" : 1629761398426,
+          "duration" : 3039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "To import workforce",
+        "uid" : "45e8ddd831e3309d",
+        "parentUid" : "1da222bef384c92a6b3063a10847a9fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629761398458,
+          "stop" : 1629761401482,
+          "duration" : 3024
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1da222bef384c92a6b3063a10847a9fb"
+    }, {
+      "name" : "element click intercepted: Element <a _ngcontent-cxo-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Vehicles\" tabindex=\"0\" aria-disabled=\"false\" href=\"/vehicle\" aria-describedby=\"cdk-describedby-message-11\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 261). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.234.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58771}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2ed96111f655c50fca9faa870c78d2fe",
+      "children" : [ {
+        "name" : "To export the list of vehicle",
+        "uid" : "3de48cb5f870a34c",
+        "parentUid" : "43e918f39420fb5065e5c8c7ea254f29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629814624626,
+          "stop" : 1629814628704,
+          "duration" : 4078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43e918f39420fb5065e5c8c7ea254f29"
+    }, {
+      "name" : "element click intercepted: Element <a _ngcontent-cwm-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Teams\" tabindex=\"0\" aria-disabled=\"false\" href=\"/team\" aria-describedby=\"cdk-describedby-message-8\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 181). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54905}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a41fa092dd6c1502a0b249719d9a166e",
+      "children" : [ {
+        "name" : "To delete Team",
+        "uid" : "5d82a4179aaf0c42",
+        "parentUid" : "a8a6e5604a7fc21323c4247a7ed01d86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630026299121,
+          "stop" : 1630026303224,
+          "duration" : 4103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8a6e5604a7fc21323c4247a7ed01d86"
+    }, {
+      "name" : "Cannot locate an element using xpath=/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[3]/button[2]\n\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "To Add a new visitor",
+        "uid" : "7c07aa15a5992328",
+        "parentUid" : "69e251a63763c639cf83b44bf1138ffe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630335745778,
+          "stop" : 1630335800449,
+          "duration" : 54671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69e251a63763c639cf83b44bf1138ffe"
+    }, {
+      "name" : "element click intercepted: Element <a _ngcontent-hjo-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Visitors\" tabindex=\"0\" aria-disabled=\"false\" href=\"/visitor\" aria-describedby=\"cdk-describedby-message-10\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 221). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bab3a3d751e73d1d1cf8d22e237ba788",
+      "children" : [ {
+        "name" : "To export the list of visitors",
+        "uid" : "415594ac2ec63507",
+        "parentUid" : "566b8e304d507f1549a93324a716edb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630366700805,
+          "stop" : 1630366704952,
+          "duration" : 4147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "566b8e304d507f1549a93324a716edb6"
+    }, {
+      "name" : "chrome not reachable\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0d7d8efea08b18ce877d405286bc504c\n*** Element info: {Using=id, value=page-link-Vehicles}",
+      "children" : [ {
+        "name" : "To add multiple vehicles then delete them",
+        "uid" : "1db55a231b35cfa1",
+        "parentUid" : "c3467f5b5493b248482ce5556e8008c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630574801862,
+          "stop" : 1630574817061,
+          "duration" : 15199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c3467f5b5493b248482ce5556e8008c5"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected:<[5] visitors selected> but was:<[4] visitors selected>",
+      "children" : [ {
+        "name" : "To add multiple visitors then delete them",
+        "uid" : "2357974f66018018",
+        "parentUid" : "4df22f4f66cdc4bbfa5eccf254c9ae76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631734257937,
+          "stop" : 1631734291724,
+          "duration" : 33787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4df22f4f66cdc4bbfa5eccf254c9ae76"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }

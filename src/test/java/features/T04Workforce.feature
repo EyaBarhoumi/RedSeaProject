@@ -1,6 +1,6 @@
 Feature: Test the Workforce feature
 
-
+  @workforce
   Scenario: user click on submit button without entering data
     Given User go to add new workforce
     When User click directly on submit button
@@ -16,7 +16,7 @@ Feature: Test the Workforce feature
     And click on submit button to confirm
     Then User should navigate to workforce dashboard
 
-  #@workforce
+  @workforce
   Scenario: To update workforce
     Given User select workforce to update
     # |workforce name |
@@ -25,7 +25,7 @@ Feature: Test the Workforce feature
       | workforceTestTest | workforcetesttest@gmail.com | 12252021 | 523698009 |
     Then User click on save workforce update button
 
-  #@workforce
+  @workforce
   Scenario: To delete workforce
     Given User select workforce to delete
      # |workforce name |
@@ -33,19 +33,20 @@ Feature: Test the Workforce feature
     When User click the delete workforce button
     Then User should navigate to workforce dashboard
 
-
+  @workforce
   Scenario: To import workforce
     Given User go to workforce menu
     When User click on import workforce list
     Then User add the workforce list
 
+  @workforce
   Scenario: To export the list of workforce
     Given User go to workforce page
     When User click on export workforce button
     Then User should navigate to workforce dashboard
 
 
-  #@multiple
+  @workforce
   Scenario: To add multiple workforces then delete them
     Given User go to workforce page
     When Add multiple workforces

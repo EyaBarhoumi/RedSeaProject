@@ -1,15 +1,59 @@
 {
-  "total" : 2,
+  "total" : 6,
   "items" : [ {
     "uid" : "131d305c8706110376ca811515c09178",
     "name" : "Test the Visitor feature",
     "statistic" : {
+      "failed" : 1,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 21,
+      "unknown" : 0,
+      "total" : 26
+    }
+  }, {
+    "uid" : "c3d14943fd290d5524ff54db46cef1b2",
+    "name" : "Test the Workforce feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "ed6f9958cb6b6282a69182179df0d9a3",
+    "name" : "Test the Vehicle feature",
+    "statistic" : {
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 2
+      "total" : 15
+    }
+  }, {
+    "uid" : "80235f60128852bbf7c651204b678f3f",
+    "name" : "Test the logout feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "50557ba2fa565ccae0a02f037b0c4f5a",
+    "name" : "Test the Team feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
     }
   }, {
     "uid" : "c05ee3ced239570b8f124cd4ee0f93bf",
@@ -18,9 +62,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 1
+      "total" : 3
     }
   } ]
 }

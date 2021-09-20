@@ -1,0 +1,354 @@
+{
+  "uid" : "693b111a5b3ba614",
+  "name" : "To update workforce",
+  "fullName" : "Test the Workforce feature: To update workforce",
+  "historyId" : "f942e3b8c9476a9163ccf3d1ca4c10fa",
+  "time" : {
+    "start" : 1629761288950,
+    "stop" : 1629761395311,
+    "duration" : 106361
+  },
+  "status" : "broken",
+  "statusMessage" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+  "statusTrace" : "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)\r\n\tat com.redsea.pages.WorkforcePage.clickOnEditButton(WorkforcePage.java:194)\r\n\tat steps.WorkforceSteps.userSelectWorkforceToUpdate(WorkforceSteps.java:73)\r\n\tat ✽.User select workforce to update(file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T04Workforce.feature:13)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1629761288950,
+      "stop" : 1629761288955,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+    "statusTrace" : "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)\r\n\tat com.redsea.pages.WorkforcePage.clickOnEditButton(WorkforcePage.java:194)\r\n\tat steps.WorkforceSteps.userSelectWorkforceToUpdate(WorkforceSteps.java:73)\r\n\tat ✽.User select workforce to update(file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T04Workforce.feature:13)\r\n",
+    "steps" : [ {
+      "name" : "Given  User select workforce to update",
+      "time" : {
+        "start" : 1629761288955,
+        "stop" : 1629761395285,
+        "duration" : 106330
+      },
+      "status" : "broken",
+      "statusMessage" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "statusTrace" : "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)\r\n\tat com.redsea.pages.WorkforcePage.clickOnEditButton(WorkforcePage.java:194)\r\n\tat steps.WorkforceSteps.userSelectWorkforceToUpdate(WorkforceSteps.java:73)\r\n\tat ✽.User select workforce to update(file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T04Workforce.feature:13)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User update workforce information",
+      "time" : {
+        "start" : 1629761395285,
+        "stop" : 1629761395291,
+        "duration" : 6
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User click on save workforce update button",
+      "time" : {
+        "start" : 1629761395291,
+        "stop" : 1629761395291,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1629761395291,
+      "stop" : 1629761395291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SanityTest01"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "12432@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Workforce feature"
+  }, {
+    "name" : "story",
+    "value" : "To update workforce"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Workforce feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To update workforce"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T04Workforce.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T04Workforce_feature.Test the Workforce feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f0c92d0502114c05",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ce35bea463e7ab6b44e6531bb2f323b5\n*** Element info: {Using=id, value=page-link-Workforces}",
+      "time" : {
+        "start" : 1629761144999,
+        "stop" : 1629761148032,
+        "duration" : 3033
+      }
+    }, {
+      "uid" : "7a56741ce2ef04ad",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-qbt-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Workforces\" tabindex=\"0\" aria-disabled=\"false\" href=\"/workforce\" aria-describedby=\"cdk-describedby-message-8\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 141). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58107}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b3f7c221c632c12463b111ae4fb90f6f",
+      "time" : {
+        "start" : 1629759097836,
+        "stop" : 1629759101980,
+        "duration" : 4144
+      }
+    }, {
+      "uid" : "a9094dba54d635ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629367992056,
+        "stop" : 1629368003804,
+        "duration" : 11748
+      }
+    }, {
+      "uid" : "d3eeb53faab644de",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629367774696,
+        "stop" : 1629367840817,
+        "duration" : 66121
+      }
+    }, {
+      "uid" : "6ce3b958c4a9ee71",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629367389004,
+        "stop" : 1629367451473,
+        "duration" : 62469
+      }
+    }, {
+      "uid" : "40ad597a864cfa56",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <mat-option _ngcontent-qup-c500=\"\" role=\"option\" class=\"mat-option mat-focus-indicator ng-tns-c221-22 ng-star-inserted\" id=\"India\" tabindex=\"0\" aria-disabled=\"false\" style=\"\">...</mat-option> is not clickable at point (847, 218). Other element would receive the click: <input _ngcontent-qup-c350=\"\" autocomplete=\"off\" class=\"mat-select-search-input mat-input-element ng-untouched ng-pristine ng-valid\" type=\"text\" placeholder=\"Search...\" aria-label=\"dropdown search\">\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:64009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dece2ea80dd6aed2750676f14ad5521c",
+      "time" : {
+        "start" : 1629367174165,
+        "stop" : 1629367205545,
+        "duration" : 31380
+      }
+    }, {
+      "uid" : "f245b19fa433e49a",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629366951702,
+        "stop" : 1629367093587,
+        "duration" : 141885
+      }
+    }, {
+      "uid" : "7cc432912cf24b8c",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629366817541,
+        "stop" : 1629366889708,
+        "duration" : 72167
+      }
+    }, {
+      "uid" : "b7e62a8169a1cd14",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629366706745,
+        "stop" : 1629366750570,
+        "duration" : 43825
+      }
+    }, {
+      "uid" : "4704f146279cd368",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629365998253,
+        "stop" : 1629366016697,
+        "duration" : 18444
+      }
+    }, {
+      "uid" : "6c7e12ac648f95e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629365124620,
+        "stop" : 1629365136331,
+        "duration" : 11711
+      }
+    }, {
+      "uid" : "7598ad86d8acea86",
+      "status" : "broken",
+      "statusDetails" : "invalid element state: Element is not currently interactable and may not be manipulated\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:59346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d6ef1f4c7d3e6ee11845b32de32087af",
+      "time" : {
+        "start" : 1629364818330,
+        "stop" : 1629364950882,
+        "duration" : 132552
+      }
+    }, {
+      "uid" : "381312d1b7ce3ea0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629364178462,
+        "stop" : 1629364305138,
+        "duration" : 126676
+      }
+    }, {
+      "uid" : "e4ea5dcecae88f0a",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629363953932,
+        "stop" : 1629364098480,
+        "duration" : 144548
+      }
+    }, {
+      "uid" : "ccf8d19208a36d61",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-visitor-dialog/form/div[3]/button[2]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629363642014,
+        "stop" : 1629363765112,
+        "duration" : 123098
+      }
+    }, {
+      "uid" : "d9d4661b4bc0258a",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:56819}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f43474110dfb27c312665007c49e0b9a",
+      "time" : {
+        "start" : 1629363520628,
+        "stop" : 1629363560760,
+        "duration" : 40132
+      }
+    }, {
+      "uid" : "dd100528b0696a1a",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0f1629cb8dd8e8c7a8a83a4f7fe7a25d",
+      "time" : {
+        "start" : 1629363349725,
+        "stop" : 1629363422741,
+        "duration" : 73016
+      }
+    }, {
+      "uid" : "72bbd225a97f9eaf",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using xpath=/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629361761797,
+        "stop" : 1629362979869,
+        "duration" : 1218072
+      }
+    }, {
+      "uid" : "94772d3a89019118",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using id=page-link-Workforces\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629361489100,
+        "stop" : 1629361711593,
+        "duration" : 222493
+      }
+    }, {
+      "uid" : "e705d313e7881cac",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using id=page-link-Workforces\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629360920896,
+        "stop" : 1629361165577,
+        "duration" : 244681
+      }
+    }, {
+      "uid" : "9d6f028a229b697",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using id=page-link-Workforces\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629360432582,
+        "stop" : 1629360446379,
+        "duration" : 13797
+      }
+    }, {
+      "uid" : "8c6fa5482ffa55e9",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate an element using id=page-link-Workforces\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1629360208811,
+        "stop" : 1629360222631,
+        "duration" : 13820
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "SanityTest01" ]
+  },
+  "source" : "693b111a5b3ba614.json",
+  "parameterValues" : [ ]
+}

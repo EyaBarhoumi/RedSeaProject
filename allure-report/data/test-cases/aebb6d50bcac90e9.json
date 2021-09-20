@@ -1,0 +1,177 @@
+{
+  "uid" : "aebb6d50bcac90e9",
+  "name" : "To import visitor",
+  "fullName" : "Test the Visitor feature: To import visitor",
+  "historyId" : "1554d57af2c96677ea21e759b3f8db1d",
+  "time" : {
+    "start" : 1628864304997,
+    "stop" : 1628864316685,
+    "duration" : 11688
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1628864304997,
+      "stop" : 1628864304998,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User go to visitor menu",
+      "time" : {
+        "start" : 1628864304999,
+        "stop" : 1628864309392,
+        "duration" : 4393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User click on import visitors list",
+      "time" : {
+        "start" : 1628864309393,
+        "stop" : 1628864314784,
+        "duration" : 5391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User add the visitors list",
+      "time" : {
+        "start" : 1628864314785,
+        "stop" : 1628864316684,
+        "duration" : 1899
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1628864316684,
+      "stop" : 1628864316685,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SanityTest01"
+  }, {
+    "name" : "host",
+    "value" : "Eyab"
+  }, {
+    "name" : "thread",
+    "value" : "10160@Eyab.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Visitor feature"
+  }, {
+    "name" : "story",
+    "value" : "To import visitor"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Visitor feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To import visitor"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/T02Visitor.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T02Visitor_feature.Test the Visitor feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9291bd6771aeabe5",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:49976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6d7fcd7c318e952c97b17c27c4e3dfe4\n*** Element info: {Using=id, value=page-link-Visitors}",
+      "time" : {
+        "start" : 1628863861030,
+        "stop" : 1628863861066,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "2230304f97e8bb55",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:63254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 86885c0389c1d0fae9cdedad0ca40dbb\n*** Element info: {Using=id, value=page-link-Visitors}",
+      "time" : {
+        "start" : 1628863543098,
+        "stop" : 1628863555277,
+        "duration" : 12179
+      }
+    }, {
+      "uid" : "2ab8d8c00196b020",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 431e915b60a4896e6cada6d1b0d83804\n*** Element info: {Using=id, value=page-link-Visitors}",
+      "time" : {
+        "start" : 1628863208402,
+        "stop" : 1628863220526,
+        "duration" : 12124
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "SanityTest01" ]
+  },
+  "source" : "aebb6d50bcac90e9.json",
+  "parameterValues" : [ ]
+}

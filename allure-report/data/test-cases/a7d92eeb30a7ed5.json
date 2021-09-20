@@ -1,0 +1,163 @@
+{
+  "uid" : "a7d92eeb30a7ed5",
+  "name" : "user click on submit button without entering data",
+  "fullName" : "Test the Vehicle feature: user click on submit button without entering data",
+  "historyId" : "afb43bdbad507d5437868d8ff8d01233",
+  "time" : {
+    "start" : 1630332438877,
+    "stop" : 1630332449029,
+    "duration" : 10152
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1630332438877,
+      "stop" : 1630332438878,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User go to add new vehicle",
+      "time" : {
+        "start" : 1630332438878,
+        "stop" : 1630332444240,
+        "duration" : 5362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User click directly on submit vehicle button",
+      "time" : {
+        "start" : 1630332444240,
+        "stop" : 1630332446831,
+        "duration" : 2591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Error messages should be displayed vehicle",
+      "time" : {
+        "start" : 1630332446831,
+        "stop" : 1630332446958,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User quit the add page vehicle",
+      "time" : {
+        "start" : 1630332446959,
+        "stop" : 1630332449029,
+        "duration" : 2070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1630332449029,
+      "stop" : 1630332449029,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SanityTest01"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "11208@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Vehicle feature"
+  }, {
+    "name" : "story",
+    "value" : "user click on submit button without entering data"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Vehicle feature"
+  }, {
+    "name" : "testClass",
+    "value" : "user click on submit button without entering data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T05Vehicle.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T05Vehicle_feature.Test the Vehicle feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "SanityTest01" ]
+  },
+  "source" : "a7d92eeb30a7ed5.json",
+  "parameterValues" : [ ]
+}

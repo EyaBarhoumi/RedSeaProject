@@ -1,0 +1,160 @@
+{
+  "uid" : "9077ce568ff20842",
+  "name" : "To update visitor",
+  "fullName" : "Test the Visitor feature: To update visitor",
+  "historyId" : "265c7219eaf7c3cb7dae132ee1282fe3",
+  "time" : {
+    "start" : 1630366670607,
+    "stop" : 1630366678880,
+    "duration" : 8273
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1630366670607,
+      "stop" : 1630366670607,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User select visitor to update",
+      "time" : {
+        "start" : 1630366670607,
+        "stop" : 1630366674076,
+        "duration" : 3469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5dcba41963b05cfb",
+        "name" : "Data table",
+        "source" : "5dcba41963b05cfb.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User update information",
+      "time" : {
+        "start" : 1630366674076,
+        "stop" : 1630366678755,
+        "duration" : 4679
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a9964ffb60a8868",
+        "name" : "Data table",
+        "source" : "8a9964ffb60a8868.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User click on save update button",
+      "time" : {
+        "start" : 1630366678755,
+        "stop" : 1630366678880,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1630366678880,
+      "stop" : 1630366678880,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SanityTest01"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "15992@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Visitor feature"
+  }, {
+    "name" : "story",
+    "value" : "To update visitor"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Visitor feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To update visitor"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T02Visitor.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T02Visitor_feature.Test the Visitor feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "SanityTest01" ]
+  },
+  "source" : "9077ce568ff20842.json",
+  "parameterValues" : [ ]
+}

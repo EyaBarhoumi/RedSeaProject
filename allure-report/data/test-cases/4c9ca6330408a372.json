@@ -1,0 +1,169 @@
+{
+  "uid" : "4c9ca6330408a372",
+  "name" : "To add multiple visitors then delete them",
+  "fullName" : "Test the Visitor feature: To add multiple visitors then delete them",
+  "historyId" : "848cd60dd41b9bb6284bdb4e3489447d",
+  "time" : {
+    "start" : 1630453658876,
+    "stop" : 1630453727103,
+    "duration" : 68227
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1630453658876,
+      "stop" : 1630453658877,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User go to visitor page",
+      "time" : {
+        "start" : 1630453658877,
+        "stop" : 1630453664973,
+        "duration" : 6096
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  Add multiple visitors",
+      "time" : {
+        "start" : 1630453664974,
+        "stop" : 1630453688950,
+        "duration" : 23976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "97abd52e7f74b1e4",
+        "name" : "Data table",
+        "source" : "97abd52e7f74b1e4.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 541
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  select the visitors added",
+      "time" : {
+        "start" : 1630453688950,
+        "stop" : 1630453692729,
+        "duration" : 3779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Click on delete button",
+      "time" : {
+        "start" : 1630453692729,
+        "stop" : 1630453727102,
+        "duration" : 34373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1630453727103,
+      "stop" : 1630453727103,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SanityTest01"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "6336@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Visitor feature"
+  }, {
+    "name" : "story",
+    "value" : "To add multiple visitors then delete them"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Visitor feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To add multiple visitors then delete them"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T02Visitor.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T02Visitor_feature.Test the Visitor feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "SanityTest01" ]
+  },
+  "source" : "4c9ca6330408a372.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,156 @@
+{
+  "uid" : "1466f8830bb4b353",
+  "name" : "To logout from account",
+  "fullName" : "Test the logout feature: To logout from account",
+  "historyId" : "8c7f5acd8281946fce629b0dabc3a1c2",
+  "time" : {
+    "start" : 1628781483944,
+    "stop" : 1628781484096,
+    "duration" : 152
+  },
+  "status" : "broken",
+  "statusMessage" : "java.lang.NullPointerException",
+  "statusTrace" : "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat com.redsea.pages.LogoutPage.performLogout(LogoutPage.java:22)\r\n\tat steps.LogOutSteps.user_logout(LogOutSteps.java:20)\r\n\tat ✽.User  logout(file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/LogOut.feature:6)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1628781483950,
+      "stop" : 1628781483959,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "java.lang.NullPointerException",
+    "statusTrace" : "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat com.redsea.pages.LogoutPage.performLogout(LogoutPage.java:22)\r\n\tat steps.LogOutSteps.user_logout(LogOutSteps.java:20)\r\n\tat ✽.User  logout(file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/LogOut.feature:6)\r\n",
+    "steps" : [ {
+      "name" : "Given  User should be  logged in",
+      "time" : {
+        "start" : 1628781483978,
+        "stop" : 1628781484064,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User  logout",
+      "time" : {
+        "start" : 1628781484066,
+        "stop" : 1628781484072,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "statusMessage" : "java.lang.NullPointerException",
+      "statusTrace" : "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat com.redsea.pages.LogoutPage.performLogout(LogoutPage.java:22)\r\n\tat steps.LogOutSteps.user_logout(LogOutSteps.java:20)\r\n\tat ✽.User  logout(file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/LogOut.feature:6)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User should be logged out",
+      "time" : {
+        "start" : 1628781484074,
+        "stop" : 1628781484075,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1628781484076,
+      "stop" : 1628781484077,
+      "duration" : 1
+    },
+    "status" : "broken",
+    "statusMessage" : "AFTER is failed: null",
+    "statusTrace" : "java.lang.NullPointerException\r\n\tat steps.Hooks.runsAfterAnyscenario(Hooks.java:17)\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SanityTest1"
+  }, {
+    "name" : "host",
+    "value" : "Eyab"
+  }, {
+    "name" : "thread",
+    "value" : "22436@Eyab.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the logout feature"
+  }, {
+    "name" : "story",
+    "value" : "To logout from account"
+  }, {
+    "name" : "suite",
+    "value" : "Test the logout feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To logout from account"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/LogOut.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.LogOut_feature.Test the logout feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "SanityTest1" ]
+  },
+  "source" : "1466f8830bb4b353.json",
+  "parameterValues" : [ ]
+}

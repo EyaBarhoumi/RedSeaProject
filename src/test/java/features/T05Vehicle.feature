@@ -1,13 +1,13 @@
 Feature: Test the Vehicle feature
 
-
+  @vehicle
   Scenario: user click on submit button without entering data
     Given User go to add new vehicle
     When User click directly on submit vehicle button
     Then Error messages should be displayed vehicle
     And User quit the add page vehicle
 
-
+  @vehicle
   Scenario: To Add a new vehicle
     Given User go to vehicle page
     And click on add new vehicle
@@ -17,17 +17,17 @@ Feature: Test the Vehicle feature
     And click on submit button vehicle to confirm
     Then User should navigate to vehicle dashboard
 
-
+  @vehicle
   Scenario: To update vehicle
     Given User select vehicle to update
     #|vehicleId|
       | 123654789 |
     When User update vehicle information
     #|vehicleId|
-      | 123654789 |
+      | 123654788 |
     Then User click on save vehicle update button
 
-
+  @vehicle
   Scenario: To delete vehicle
     Given User select vehicle to delete
     #|vehicleId|
@@ -35,20 +35,20 @@ Feature: Test the Vehicle feature
     When User click the delete vehicle button
     Then User should navigate to vehicle dashboard
 
-
+  @vehicle
   Scenario: To import vehicle
     Given User go to vehicle menu
     When User click on import vehicle list
     Then User add the vehicle list
 
-
+  @vehicle
   Scenario: To export the list of vehicle
     Given User go to vehicle page
     When User click on export vehicle button
     Then User should navigate to vehicle dashboard
 
 
- # @multiple
+  @vehicle
   Scenario: To add multiple vehicles then delete them
     Given User go to vehicle page
     When Add multiple vehicles

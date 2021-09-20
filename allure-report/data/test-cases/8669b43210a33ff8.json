@@ -1,0 +1,148 @@
+{
+  "uid" : "8669b43210a33ff8",
+  "name" : "To delete workforce",
+  "fullName" : "Test the Workforce feature: To delete workforce",
+  "historyId" : "c99f12d886e90bbffdbec2e3eb27b67e",
+  "time" : {
+    "start" : 1629368003847,
+    "stop" : 1629368017630,
+    "duration" : 13783
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1629368003847,
+      "stop" : 1629368003848,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User select workforce to delete",
+      "time" : {
+        "start" : 1629368003848,
+        "stop" : 1629368007366,
+        "duration" : 3518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User click the delete workforce button",
+      "time" : {
+        "start" : 1629368007366,
+        "stop" : 1629368010792,
+        "duration" : 3426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User should navigate to workforce dashboard",
+      "time" : {
+        "start" : 1629368010794,
+        "stop" : 1629368017628,
+        "duration" : 6834
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1629368017628,
+      "stop" : 1629368017629,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SanityTest01"
+  }, {
+    "name" : "host",
+    "value" : "Eyab"
+  }, {
+    "name" : "thread",
+    "value" : "11656@Eyab.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Workforce feature"
+  }, {
+    "name" : "story",
+    "value" : "To delete workforce"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Workforce feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To delete workforce"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/T04Workforce.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T04Workforce_feature.Test the Workforce feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "SanityTest01" ]
+  },
+  "source" : "8669b43210a33ff8.json",
+  "parameterValues" : [ ]
+}

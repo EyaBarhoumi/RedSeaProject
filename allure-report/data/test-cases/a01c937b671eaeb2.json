@@ -1,0 +1,233 @@
+{
+  "uid" : "a01c937b671eaeb2",
+  "name" : "To add multiple Teams then delete them",
+  "fullName" : "Test the Team feature: To add multiple Teams then delete them",
+  "historyId" : "c7640570f1d7ded603ce0e5c0b6d136d",
+  "time" : {
+    "start" : 1631736536627,
+    "stop" : 1631736607126,
+    "duration" : 70499
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1631736536627,
+      "stop" : 1631736536628,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User go to Team page",
+      "time" : {
+        "start" : 1631736536628,
+        "stop" : 1631736541694,
+        "duration" : 5066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  Add multiple Teams",
+      "time" : {
+        "start" : 1631736541695,
+        "stop" : 1631736588688,
+        "duration" : 46993
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ece84e2241f764eb",
+        "name" : "Data table",
+        "source" : "ece84e2241f764eb.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 110
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  select the Teams added",
+      "time" : {
+        "start" : 1631736588688,
+        "stop" : 1631736600848,
+        "duration" : 12160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Click on delete Teams button",
+      "time" : {
+        "start" : 1631736600848,
+        "stop" : 1631736607125,
+        "duration" : 6277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1631736607125,
+      "stop" : 1631736607126,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "team"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "9356@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Team feature"
+  }, {
+    "name" : "story",
+    "value" : "To add multiple Teams then delete them"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Team feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To add multiple Teams then delete them"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T06Team.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T06Team_feature.Test the Team feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "67ad84f6de0042df",
+      "status" : "failed",
+      "statusDetails" : "expected:<[3] teams selected> but was:<[4] teams selected>",
+      "time" : {
+        "start" : 1631736290813,
+        "stop" : 1631736345935,
+        "duration" : 55122
+      }
+    }, {
+      "uid" : "c735f422b6fcf286",
+      "status" : "failed",
+      "statusDetails" : "expected:<[3] teams selected> but was:<[4] teams selected>",
+      "time" : {
+        "start" : 1630943777169,
+        "stop" : 1630943832258,
+        "duration" : 55089
+      }
+    }, {
+      "uid" : "530ad07616dc7733",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630922076663,
+        "stop" : 1630922149752,
+        "duration" : 73089
+      }
+    }, {
+      "uid" : "561c478dc7048543",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 07954368709921a8025a5d13d52a70ba\n*** Element info: {Using=id, value=page-link-Teams}",
+      "time" : {
+        "start" : 1630664305532,
+        "stop" : 1630664320700,
+        "duration" : 15168
+      }
+    }, {
+      "uid" : "3686837217586e0e",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-jkf-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base\" id=\"page-link-Teams\" tabindex=\"0\" aria-disabled=\"false\" href=\"/team\" aria-describedby=\"cdk-describedby-message-9\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 181). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53368}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 672b031f254a606a99f1d506faad178f",
+      "time" : {
+        "start" : 1630582465439,
+        "stop" : 1630582469535,
+        "duration" : 4096
+      }
+    }, {
+      "uid" : "db46934881cf19ae",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-vnk-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base\" id=\"page-link-Teams\" tabindex=\"0\" aria-disabled=\"false\" href=\"/team\" aria-describedby=\"cdk-describedby-message-9\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 181). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65277}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ba1f2a4256cbfe6414beba89ffd5499d",
+      "time" : {
+        "start" : 1630582315444,
+        "stop" : 1630582319554,
+        "duration" : 4110
+      }
+    }, {
+      "uid" : "d8dd67a2cea4821b",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-kuf-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base\" id=\"page-link-Teams\" tabindex=\"0\" aria-disabled=\"false\" href=\"/team\" aria-describedby=\"cdk-describedby-message-9\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 181). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 823ccb7b881d69777ed627736f3a93ea",
+      "time" : {
+        "start" : 1630581793262,
+        "stop" : 1630581797378,
+        "duration" : 4116
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "team" ]
+  },
+  "source" : "a01c937b671eaeb2.json",
+  "parameterValues" : [ ]
+}

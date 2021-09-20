@@ -1,0 +1,160 @@
+{
+  "uid" : "8c6db7d15c9d47b",
+  "name" : "To update workforce",
+  "fullName" : "Test the Workforce feature: To update workforce",
+  "historyId" : "8606df9523fafd0df35d271091f0f791",
+  "time" : {
+    "start" : 1631735502258,
+    "stop" : 1631735519317,
+    "duration" : 17059
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1631735502258,
+      "stop" : 1631735502259,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User select workforce to update",
+      "time" : {
+        "start" : 1631735502259,
+        "stop" : 1631735515858,
+        "duration" : 13599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0999183714bb9ee",
+        "name" : "Data table",
+        "source" : "c0999183714bb9ee.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User update workforce information",
+      "time" : {
+        "start" : 1631735515858,
+        "stop" : 1631735518246,
+        "duration" : 2388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "401e40ae2a9f51f4",
+        "name" : "Data table",
+        "source" : "401e40ae2a9f51f4.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User click on save workforce update button",
+      "time" : {
+        "start" : 1631735518246,
+        "stop" : 1631735519316,
+        "duration" : 1070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1631735519316,
+      "stop" : 1631735519316,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "workforce"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "16936@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Workforce feature"
+  }, {
+    "name" : "story",
+    "value" : "To update workforce"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Workforce feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To update workforce"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T04Workforce.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T04Workforce_feature.Test the Workforce feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "workforce" ]
+  },
+  "source" : "8c6db7d15c9d47b.json",
+  "parameterValues" : [ ]
+}

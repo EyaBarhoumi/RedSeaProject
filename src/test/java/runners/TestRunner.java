@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = {"steps"},
         monochrome = true,
         plugin = {"io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm"}     ,
-       tags = ("@multiple")
+       tags = ("@vehicle")
 )
 public class TestRunner {
 

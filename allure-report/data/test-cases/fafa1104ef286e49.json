@@ -1,0 +1,223 @@
+{
+  "uid" : "fafa1104ef286e49",
+  "name" : "To delete vehicle",
+  "fullName" : "Test the Vehicle feature: To delete vehicle",
+  "historyId" : "4d03ab99521461b7a89bc6b348a3be79",
+  "time" : {
+    "start" : 1631738422965,
+    "stop" : 1631738439834,
+    "duration" : 16869
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1631738422965,
+      "stop" : 1631738422965,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User select vehicle to delete",
+      "time" : {
+        "start" : 1631738422966,
+        "stop" : 1631738429232,
+        "duration" : 6266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a293ae069528c83d",
+        "name" : "Data table",
+        "source" : "a293ae069528c83d.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User click the delete vehicle button",
+      "time" : {
+        "start" : 1631738429232,
+        "stop" : 1631738436533,
+        "duration" : 7301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User should navigate to vehicle dashboard",
+      "time" : {
+        "start" : 1631738436534,
+        "stop" : 1631738439833,
+        "duration" : 3299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1631738439833,
+      "stop" : 1631738439833,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "vehicle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-22IC36O"
+  }, {
+    "name" : "thread",
+    "value" : "8304@DESKTOP-22IC36O.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Vehicle feature"
+  }, {
+    "name" : "story",
+    "value" : "To delete vehicle"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Vehicle feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To delete vehicle"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eyaba/Documents/GitHub/RedSeaProject/src/test/java/features/T05Vehicle.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.T05Vehicle_feature.Test the Vehicle feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "710805a48e6ff799",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631738229386,
+        "stop" : 1631738246131,
+        "duration" : 16745
+      }
+    }, {
+      "uid" : "bc107c1d429c9e06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631737101879,
+        "stop" : 1631737114557,
+        "duration" : 12678
+      }
+    }, {
+      "uid" : "7f447d6c7c22af72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630332491883,
+        "stop" : 1630332500718,
+        "duration" : 8835
+      }
+    }, {
+      "uid" : "91dc0116aa04dac7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630332351059,
+        "stop" : 1630332359898,
+        "duration" : 8839
+      }
+    }, {
+      "uid" : "f4d8b772b628e7c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630072856442,
+        "stop" : 1630072861273,
+        "duration" : 4831
+      }
+    }, {
+      "uid" : "82c1e024a30255a6",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-nxl-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Vehicles\" tabindex=\"0\" aria-disabled=\"false\" href=\"/vehicle\" aria-describedby=\"cdk-describedby-message-11\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 261). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57946}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 205832cb69f5f959b42f9443c34cd3b2",
+      "time" : {
+        "start" : 1630071110366,
+        "stop" : 1630071114414,
+        "duration" : 4048
+      }
+    }, {
+      "uid" : "1075f33654d0e93c",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a _ngcontent-gcg-c354=\"\" mat-button=\"\" routerlinkactive=\"tb-active\" class=\"mat-focus-indicator mat-tooltip-trigger menu-button mat-button mat-button-base tb-active\" id=\"page-link-Vehicles\" tabindex=\"0\" aria-disabled=\"false\" href=\"/vehicle\" aria-describedby=\"cdk-describedby-message-11\" cdk-describedby-host=\"\">...</a> is not clickable at point (130, 261). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9241da364470b323e68e06a8ced76c6b",
+      "time" : {
+        "start" : 1630070795973,
+        "stop" : 1630070800022,
+        "duration" : 4049
+      }
+    }, {
+      "uid" : "ad6b0ff748024577",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.159)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-22IC36O', ip: '192.168.1.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eyaba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 76076239c20d92c41311716f905140b2\n*** Element info: {Using=id, value=page-link-Vehicles}",
+      "time" : {
+        "start" : 1630070642939,
+        "stop" : 1630070658136,
+        "duration" : 15197
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "vehicle" ]
+  },
+  "source" : "fafa1104ef286e49.json",
+  "parameterValues" : [ ]
+}

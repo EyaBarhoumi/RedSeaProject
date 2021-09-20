@@ -1,31 +1,701 @@
 [ {
-  "uid" : "5ac533b8bd768eec",
-  "name" : "To Add a new visitor",
+  "uid" : "bd4b8511d097eee8",
+  "name" : "To export the list of workforce",
   "time" : {
-    "start" : 1628680843773,
-    "stop" : 1628680879622,
-    "duration" : 35849
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "cba6ecb61ba996ae",
-  "name" : "To login with  email and pw",
-  "time" : {
-    "start" : 1628680790217,
-    "stop" : 1628680843584,
-    "duration" : 53367
+    "start" : 1631735720451,
+    "stop" : 1631735733478,
+    "duration" : 13027
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "be8473bddc770890",
+  "uid" : "b1d53e45eb1b4e74",
+  "name" : "To Add a new visitor",
+  "time" : {
+    "start" : 1631734194061,
+    "stop" : 1631734218178,
+    "duration" : 24117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1130b8db271e5109",
   "name" : "To export the list of visitors",
   "time" : {
-    "start" : 1628680879645,
-    "stop" : 1628680879651,
-    "duration" : 6
+    "start" : 1628853500424,
+    "stop" : 1628853525174,
+    "duration" : 24750
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d6d38662cf21f3ec",
+  "name" : "To update visitor",
+  "time" : {
+    "start" : 1628864206691,
+    "stop" : 1628864216057,
+    "duration" : 9366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7028d04ccdcf6926",
+  "name" : "To export the list of visitors",
+  "time" : {
+    "start" : 1628853691096,
+    "stop" : 1628853694242,
+    "duration" : 3146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ce69065d71e98a7",
+  "name" : "To login with  email and pw",
+  "time" : {
+    "start" : 1628853438498,
+    "stop" : 1628853498589,
+    "duration" : 60091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e07250049efb6c0f",
+  "name" : "user click on submit button without entering data",
+  "time" : {
+    "start" : 1630071057117,
+    "stop" : 1630071068484,
+    "duration" : 11367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b80dcee36420998f",
+  "name" : "To update vehicle",
+  "time" : {
+    "start" : 1630332471178,
+    "stop" : 1630332479312,
+    "duration" : 8134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c51a3570687093a9",
+  "name" : "To update Team",
+  "time" : {
+    "start" : 1630072025732,
+    "stop" : 1630072040779,
+    "duration" : 15047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c969e589935361d5",
+  "name" : "To delete workforce",
+  "time" : {
+    "start" : 1629761395387,
+    "stop" : 1629761398426,
+    "duration" : 3039
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "54482b21b07809e9",
+  "name" : "To update Team",
+  "time" : {
+    "start" : 1631736491265,
+    "stop" : 1631736506256,
+    "duration" : 14991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "554c39f7d264c6ee",
+  "name" : "To Add a new workforce",
+  "time" : {
+    "start" : 1631735670216,
+    "stop" : 1631735688706,
+    "duration" : 18490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aebb6d50bcac90e9",
+  "name" : "To import visitor",
+  "time" : {
+    "start" : 1628864304997,
+    "stop" : 1628864316685,
+    "duration" : 11688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "621466e22b5990cb",
+  "name" : "To import visitor",
+  "time" : {
+    "start" : 1629992839279,
+    "stop" : 1629992848628,
+    "duration" : 9349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3de48cb5f870a34c",
+  "name" : "To export the list of vehicle",
+  "time" : {
+    "start" : 1629814624626,
+    "stop" : 1629814628704,
+    "duration" : 4078
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f4e0972a2ead7f4",
+  "name" : "To import visitor",
+  "time" : {
+    "start" : 1628859453072,
+    "stop" : 1628859470423,
+    "duration" : 17351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "155a1ba2700f3fa9",
+  "name" : "To add multiple workforces then delete them",
+  "time" : {
+    "start" : 1631735733485,
+    "stop" : 1631735786059,
+    "duration" : 52574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94f0ccf06d44d6e1",
+  "name" : "To update visitor",
+  "time" : {
+    "start" : 1628861374818,
+    "stop" : 1628861456489,
+    "duration" : 81671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b05b30d6f561de36",
+  "name" : "To delete vehicle",
+  "time" : {
+    "start" : 1629814610189,
+    "stop" : 1629814619853,
+    "duration" : 9664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e83ec8ef3d85ffd",
+  "name" : "To export the list of visitors",
+  "time" : {
+    "start" : 1628864317373,
+    "stop" : 1628864318823,
+    "duration" : 1450
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2357974f66018018",
+  "name" : "To add multiple visitors then delete them",
+  "time" : {
+    "start" : 1631734257937,
+    "stop" : 1631734291724,
+    "duration" : 33787
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac55399557cfaf54",
+  "name" : "user click on submit button without entering data",
+  "time" : {
+    "start" : 1631734182796,
+    "stop" : 1631734194046,
+    "duration" : 11250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7fc7b3b858c452c",
+  "name" : "To Add a new visitor",
+  "time" : {
+    "start" : 1629992805380,
+    "stop" : 1629992824282,
+    "duration" : 18902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40628df05474512f",
+  "name" : "To add multiple vehicles then delete them",
+  "time" : {
+    "start" : 1631738465710,
+    "stop" : 1631738519935,
+    "duration" : 54225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dfde0bb17ed8e69",
+  "name" : "To login with  email and pw",
+  "time" : {
+    "start" : 1628759305575,
+    "stop" : 1628759340260,
+    "duration" : 34685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9517e5e0efa0ebb1",
+  "name" : "user click on submit button without entering data",
+  "time" : {
+    "start" : 1630029997812,
+    "stop" : 1630030009150,
+    "duration" : 11338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1db55a231b35cfa1",
+  "name" : "To add multiple vehicles then delete them",
+  "time" : {
+    "start" : 1630574801862,
+    "stop" : 1630574817061,
+    "duration" : 15199
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "749d792729e055cc",
+  "name" : "user click on submit button without entering data",
+  "time" : {
+    "start" : 1630024805868,
+    "stop" : 1630024819222,
+    "duration" : 13354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f36ff2ff0b01ff85",
+  "name" : "To add multiple workforces then delete them",
+  "time" : {
+    "start" : 1630920595027,
+    "stop" : 1630920662148,
+    "duration" : 67121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81d094f3f53b53c4",
+  "name" : "To export the list of vehicle",
+  "time" : {
+    "start" : 1631738452213,
+    "stop" : 1631738465703,
+    "duration" : 13490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b604bbecc0cbd76",
+  "name" : "To delete visitor",
+  "time" : {
+    "start" : 1629992830954,
+    "stop" : 1629992839273,
+    "duration" : 8319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8d7fb92c2ee711d",
+  "name" : "To import workforce",
+  "time" : {
+    "start" : 1631735715612,
+    "stop" : 1631735720445,
+    "duration" : 4833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45e8ddd831e3309d",
+  "name" : "To import workforce",
+  "time" : {
+    "start" : 1629761398458,
+    "stop" : 1629761401482,
+    "duration" : 3024
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d618b7c72f8852b3",
+  "name" : "2To logout from account",
+  "time" : {
+    "start" : 1628782766781,
+    "stop" : 1628782766859,
+    "duration" : 78
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "32b077a2c9a9d63b",
+  "name" : "user click on submit button without entering data",
+  "time" : {
+    "start" : 1631735656839,
+    "stop" : 1631735670204,
+    "duration" : 13365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "803a7292edeb23e5",
+  "name" : "To export the list of Team",
+  "time" : {
+    "start" : 1631736525100,
+    "stop" : 1631736536618,
+    "duration" : 11518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da4ec2d9ec4281de",
+  "name" : "To update workforce",
+  "time" : {
+    "start" : 1631735688723,
+    "stop" : 1631735705699,
+    "duration" : 16976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22d582c202ec367f",
+  "name" : "To delete visitor",
+  "time" : {
+    "start" : 1631734230413,
+    "stop" : 1631734234914,
+    "duration" : 4501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d52406bee38f6091",
+  "name" : "To export the list of visitors",
+  "time" : {
+    "start" : 1631734247425,
+    "stop" : 1631734257925,
+    "duration" : 10500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "415594ac2ec63507",
+  "name" : "To export the list of visitors",
+  "time" : {
+    "start" : 1630366700805,
+    "stop" : 1630366704952,
+    "duration" : 4147
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "395536eba7bb44ab",
+  "name" : "user click on submit button without entering data",
+  "time" : {
+    "start" : 1631736456253,
+    "stop" : 1631736468103,
+    "duration" : 11850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "608d3215216e0dd7",
+  "name" : "To Add a new visitor",
+  "time" : {
+    "start" : 1628759148258,
+    "stop" : 1628759168583,
+    "duration" : 20325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbeef57b0377383b",
+  "name" : "To update Team",
+  "time" : {
+    "start" : 1630026292879,
+    "stop" : 1630026299107,
+    "duration" : 6228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92b0ee1f6596afff",
+  "name" : "To logout from account",
+  "time" : {
+    "start" : 1629992849729,
+    "stop" : 1629992849842,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c07aa15a5992328",
+  "name" : "To Add a new visitor",
+  "time" : {
+    "start" : 1630335745778,
+    "stop" : 1630335800449,
+    "duration" : 54671
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1873499a6b80f48",
+  "name" : "To delete workforce",
+  "time" : {
+    "start" : 1631735705709,
+    "stop" : 1631735715604,
+    "duration" : 9895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d82a4179aaf0c42",
+  "name" : "To delete Team",
+  "time" : {
+    "start" : 1630026299121,
+    "stop" : 1630026303224,
+    "duration" : 4103
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "33114a20de0b7f8e",
+  "name" : "To delete Team",
+  "time" : {
+    "start" : 1631736506266,
+    "stop" : 1631736525093,
+    "duration" : 18827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63493af51002a0af",
+  "name" : "To update visitor",
+  "time" : {
+    "start" : 1631734218196,
+    "stop" : 1631734230413,
+    "duration" : 12217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cefca436c04fd290",
+  "name" : "To import visitor",
+  "time" : {
+    "start" : 1630366690647,
+    "stop" : 1630366700781,
+    "duration" : 10134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63e7c131aea36e7e",
+  "name" : "To login with  email and pw",
+  "time" : {
+    "start" : 1631738350157,
+    "stop" : 1631738367562,
+    "duration" : 17405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b70f876411525ec6",
+  "name" : "To delete Team",
+  "time" : {
+    "start" : 1630072040789,
+    "stop" : 1630072059646,
+    "duration" : 18857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6771ee7f44631a27",
+  "name" : "To update vehicle",
+  "time" : {
+    "start" : 1629814605005,
+    "stop" : 1629814610173,
+    "duration" : 5168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13684a1cfba0dc",
+  "name" : "To delete vehicle",
+  "time" : {
+    "start" : 1630332479320,
+    "stop" : 1630332491876,
+    "duration" : 12556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca10abf72c7a64a8",
+  "name" : "To Add a new Team",
+  "time" : {
+    "start" : 1631736468116,
+    "stop" : 1631736491246,
+    "duration" : 23130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c42b668f93ad31a4",
+  "name" : "To delete visitor",
+  "time" : {
+    "start" : 1628862296097,
+    "stop" : 1628862305437,
+    "duration" : 9340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b2818199f13d864",
+  "name" : "To update vehicle",
+  "time" : {
+    "start" : 1631738401957,
+    "stop" : 1631738422955,
+    "duration" : 20998
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "668c730ba7978f67",
+  "name" : "To export the list of vehicle",
+  "time" : {
+    "start" : 1630332500724,
+    "stop" : 1630332514034,
+    "duration" : 13310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a27510a9a85f6a6",
+  "name" : "To delete visitor",
+  "time" : {
+    "start" : 1630366678912,
+    "stop" : 1630366690639,
+    "duration" : 11727
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7ad1321c79ca528",
+  "name" : "To logout from account",
+  "time" : {
+    "start" : 1628853499104,
+    "stop" : 1628853500322,
+    "duration" : 1218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c47136508a9ea529",
+  "name" : "To import vehicle",
+  "time" : {
+    "start" : 1629814619860,
+    "stop" : 1629814624614,
+    "duration" : 4754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fac7c7cb116b24be",
+  "name" : "user click on submit button without entering data",
+  "time" : {
+    "start" : 1631738367642,
+    "stop" : 1631738380255,
+    "duration" : 12613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1261487442928c89",
+  "name" : "To Add a new vehicle",
+  "time" : {
+    "start" : 1631738380266,
+    "stop" : 1631738401940,
+    "duration" : 21674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a01c937b671eaeb2",
+  "name" : "To add multiple Teams then delete them",
+  "time" : {
+    "start" : 1631736536627,
+    "stop" : 1631736607126,
+    "duration" : 70499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c0a834b4cdf9b3c",
+  "name" : "To import vehicle",
+  "time" : {
+    "start" : 1631738439841,
+    "stop" : 1631738452205,
+    "duration" : 12364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "796d2fba2266607b",
+  "name" : "To logout from account",
+  "time" : {
+    "start" : 1628863861181,
+    "stop" : 1628863861471,
+    "duration" : 290
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "642b4a8f1a96853",
+  "name" : "To import visitor",
+  "time" : {
+    "start" : 1631734234922,
+    "stop" : 1631734247418,
+    "duration" : 12496
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab9b79eec1450559",
+  "name" : "To delete visitor",
+  "time" : {
+    "start" : 1628864216236,
+    "stop" : 1628864222256,
+    "duration" : 6020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "693b111a5b3ba614",
+  "name" : "To update workforce",
+  "time" : {
+    "start" : 1629761288950,
+    "stop" : 1629761395311,
+    "duration" : 106361
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fafa1104ef286e49",
+  "name" : "To delete vehicle",
+  "time" : {
+    "start" : 1631738422965,
+    "stop" : 1631738439834,
+    "duration" : 16869
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

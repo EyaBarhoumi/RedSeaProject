@@ -1,0 +1,151 @@
+{
+  "uid" : "5a81a5d0d89bb294",
+  "name" : "To export the list of visitors",
+  "fullName" : "Test the Visitor feature: To export the list of visitors",
+  "historyId" : "17d9048e0fec83d26c87ced7111671d0",
+  "time" : {
+    "start" : 1628758892477,
+    "stop" : 1628758897484,
+    "duration" : 5007
+  },
+  "status" : "broken",
+  "statusMessage" : "java.lang.NullPointerException",
+  "statusTrace" : "java.lang.NullPointerException\r\n\tat steps.VisitorSteps.userGoToVisitorPage(VisitorSteps.java:55)\r\n\tat ✽.User go to visitor page(file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/Visitor.feature:11)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1628758892477,
+      "stop" : 1628758892478,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "java.lang.NullPointerException",
+    "statusTrace" : "java.lang.NullPointerException\r\n\tat steps.VisitorSteps.userGoToVisitorPage(VisitorSteps.java:55)\r\n\tat ✽.User go to visitor page(file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/Visitor.feature:11)\r\n",
+    "steps" : [ {
+      "name" : "Given  User go to visitor page",
+      "time" : {
+        "start" : 1628758892478,
+        "stop" : 1628758897481,
+        "duration" : 5003
+      },
+      "status" : "broken",
+      "statusMessage" : "java.lang.NullPointerException",
+      "statusTrace" : "java.lang.NullPointerException\r\n\tat steps.VisitorSteps.userGoToVisitorPage(VisitorSteps.java:55)\r\n\tat ✽.User go to visitor page(file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/Visitor.feature:11)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User click on export button",
+      "time" : {
+        "start" : 1628758897481,
+        "stop" : 1628758897482,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User should navigate to visitor dashboard",
+      "time" : {
+        "start" : 1628758897482,
+        "stop" : 1628758897483,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1628758897483,
+      "stop" : 1628758897483,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Eyab"
+  }, {
+    "name" : "thread",
+    "value" : "20328@Eyab.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the Visitor feature"
+  }, {
+    "name" : "story",
+    "value" : "To export the list of visitors"
+  }, {
+    "name" : "suite",
+    "value" : "Test the Visitor feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To export the list of visitors"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/Visitor.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.Visitor_feature.Test the Visitor feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a81a5d0d89bb294.json",
+  "parameterValues" : [ ]
+}

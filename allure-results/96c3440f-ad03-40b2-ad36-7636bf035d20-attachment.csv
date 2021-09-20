@@ -1,0 +1,5 @@
+fullName	mobileNumber	idNumber	visitorStartdate	visitorStartTime	visitorEnddate	visitorEndTime	fileName	fileLocation
+visitorTest01	523698001	523698001	09252018	0345PM	09252021	0245PM	file123	C:\Users\Eyaba\Desktop\file.pdf
+visitorTest02	523698002	523698002	09252017	0145PM	09252021	0245PM	file123	C:\Users\Eyaba\Desktop\file.pdf
+visitorTest03	523698003	523698003	09262017	0245PM	09252020	0245PM	file123	C:\Users\Eyaba\Desktop\file.pdf
+visitorTest04	523698004	523698004	09282017	0445PM	09252019	0245PM	file123	C:\Users\Eyaba\Desktop\file.pdf

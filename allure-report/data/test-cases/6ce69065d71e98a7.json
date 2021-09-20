@@ -1,0 +1,238 @@
+{
+  "uid" : "6ce69065d71e98a7",
+  "name" : "To login with  email and pw",
+  "fullName" : "Test the login feature: To login with  email and pw",
+  "historyId" : "4b703af80c31ce51b7d0902008f28f1e",
+  "time" : {
+    "start" : 1628853438498,
+    "stop" : 1628853498589,
+    "duration" : 60091
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "steps.Hooks.runsBeforeAnyScenario()",
+    "time" : {
+      "start" : 1628853438505,
+      "stop" : 1628853438533,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User open the website and go to login page",
+      "time" : {
+        "start" : 1628853438552,
+        "stop" : 1628853485274,
+        "duration" : 46722
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User fill email as \"eya.barhoumi@esprit.tn\" and pw as \"Eya@2307\"",
+      "time" : {
+        "start" : 1628853485275,
+        "stop" : 1628853498581,
+        "duration" : 13306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  click on login button",
+      "time" : {
+        "start" : 1628853498581,
+        "stop" : 1628853498582,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User should navigate to home page",
+      "time" : {
+        "start" : 1628853498582,
+        "stop" : 1628853498583,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "steps.Hooks.runsAfterAnyscenario()",
+    "time" : {
+      "start" : 1628853498584,
+      "stop" : 1628853498584,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SanityTest01"
+  }, {
+    "name" : "host",
+    "value" : "Eyab"
+  }, {
+    "name" : "thread",
+    "value" : "19124@Eyab.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test the login feature"
+  }, {
+    "name" : "story",
+    "value" : "To login with  email and pw"
+  }, {
+    "name" : "suite",
+    "value" : "Test the login feature"
+  }, {
+    "name" : "testClass",
+    "value" : "To login with  email and pw"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Eya/Desktop/Internship/Project%20with%20pom/src/test/java/features/Login.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.Login_feature.Test the login feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b964ff85449391b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628849364639,
+        "stop" : 1628849441815,
+        "duration" : 77176
+      }
+    }, {
+      "uid" : "a3edc406dbf66687",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628783361119,
+        "stop" : 1628783391809,
+        "duration" : 30690
+      }
+    }, {
+      "uid" : "7ae74dabc3a65c6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628782928164,
+        "stop" : 1628782955057,
+        "duration" : 26893
+      }
+    }, {
+      "uid" : "2b011b8043a1b00d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628782828143,
+        "stop" : 1628782855705,
+        "duration" : 27562
+      }
+    }, {
+      "uid" : "a9a434580f7173b1",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EYAB', ip: '169.254.78.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Eya\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:56101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 52c82fa5856889e5c94963911e77fea8\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1628782767093,
+        "stop" : 1628782802695,
+        "duration" : 35602
+      }
+    }, {
+      "uid" : "e8c488bd5934a5b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628760742321,
+        "stop" : 1628760783684,
+        "duration" : 41363
+      }
+    }, {
+      "uid" : "e8fd0bea9f2cc294",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628760495397,
+        "stop" : 1628760520439,
+        "duration" : 25042
+      }
+    }, {
+      "uid" : "7f0328fd0a02cfd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628760381118,
+        "stop" : 1628760419591,
+        "duration" : 38473
+      }
+    }, {
+      "uid" : "b9d9bf15718109b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628760287381,
+        "stop" : 1628760314087,
+        "duration" : 26706
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "SanityTest01" ]
+  },
+  "source" : "6ce69065d71e98a7.json",
+  "parameterValues" : [ ]
+}
